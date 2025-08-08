@@ -1,0 +1,1039 @@
+[
+  {
+    "data": {
+      "searchProductV5": {
+        "header": {
+          "totalData": 2793116,
+          "responseCode": 0,
+          "__typename": "SearchProductV5Header"
+        },
+        "data": {
+          "products": [
+            {
+              "id": 11766913427,
+              "name": "LCD + FRAME SAMSUNG S20 PLUS G985 G985F ORI SUPPORT FINGER",
+              "url": "https://www.tokopedia.com/88part/lcd-frame-samsung-s20-plus-g985-g985f-ori-support-finger?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp1.100.000",
+                "number": 1100000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "88part1990",
+                "city": "Bandung",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.7",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12099320054,
+              "name": "Backdoor tutup belakang samsung A72",
+              "url": "https://www.tokopedia.com/hendraking/backdoor-tutup-belakang-samsung-a72-1731490640635266771?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp55.000",
+                "number": 55000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "HendraKing",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.9",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 2188221578,
+              "name": "BATERAI SAMSUNG NOTE 8 / SM-N950 ORI 100% NEW",
+              "url": "https://www.tokopedia.com/88part/baterai-samsung-note-8-sm-n950-ori-100-new?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp110.000",
+                "number": 110000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "88part1990",
+                "city": "Bandung",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.8",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 15390606755,
+              "name": "Case silicone pelindung remote tv samsung AA59-00741A / BN59-01315D",
+              "url": "https://www.tokopedia.com/haramania/case-silicone-pelindung-remote-tv-samsung-aa59-00741a-bn59-01315d-hitam-c4135?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp34.900",
+                "number": 34900,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Th accesories",
+                "city": "Bandung",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12076280036,
+              "name": "Strap Case Samsung Galaxy Watch 6 47mm 2023 SUPCASE UB Pro Casing",
+              "url": "https://www.tokopedia.com/ringkeofficial/strap-case-samsung-galaxy-watch-6-47mm-2023-supcase-ub-pro-casing?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp349.000",
+                "number": 349000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Ringke Official Store",
+                "city": "Jakarta Utara",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 13322048776,
+              "name": "LCD TOUCHSCREEN SET FRAME SAMSUNG GALAXY S23 ULTRA S918 ORIGINAL OLED",
+              "url": "https://www.tokopedia.com/archive-itv/lcd-touchscreen-set-frame-samsung-galaxy-s23-ultra-s918-original-oled?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp1.650.000",
+                "number": 1650000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "KINGACC88",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 6793617300,
+              "name": "Lem Backdoor Stiker Adhesive Samsung A52S",
+              "url": "https://www.tokopedia.com/infoflashgsm/lem-backdoor-stiker-adhesive-samsung-a52s?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp17.000",
+                "number": 17000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "infoflashgsm",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.9",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 13655532468,
+              "name": "Case Ultra Hybird Samsung S24 Ultra Premium Case Armor Hybird Clear Case Cover - Titanium Grey",
+              "url": "https://www.tokopedia.com/colshop-13/case-ultra-hybird-samsung-s24-ultra-premium-case-armor-hybird-clear-case-cover-titanium-grey?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp149.000",
+                "number": 149000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Casing Online Shop",
+                "city": "Kab. Tangerang",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.7",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12694840397,
+              "name": "Backdoor + Frame Tulang Tengah Samsung Galaxy A31 / SM-A315F",
+              "url": "https://www.tokopedia.com/777sparepart/backdoor-frame-tulang-tengah-samsung-galaxy-a31-sm-a315f-hitam-6eebe?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp60.000",
+                "number": 60000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "777parthp",
+                "city": "Jakarta Timur",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 7067523630,
+              "name": "papan pcb charger samsung a71 original",
+              "url": "https://www.tokopedia.com/ic-sparepart/papan-pcb-charger-samsung-a71-original?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp110.000",
+                "number": 110000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "komunitas sparepart",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 2188229757,
+              "name": "BATERAI SAMSUNG S10 / SM-S10 ORI 100% NEW",
+              "url": "https://www.tokopedia.com/88part/baterai-samsung-s10-sm-s10-ori-100-new?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp110.000",
+                "number": 110000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "88part1990",
+                "city": "Bandung",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 10574268566,
+              "name": "Mesin Motherboard Samsung A51 Mulus Bahan",
+              "url": "https://www.tokopedia.com/kosmossparepart/mesin-motherboard-samsung-a51-mulus-bahan?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp300.000",
+                "number": 300000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "kosmos sparepart",
+                "city": "Jakarta Utara",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 2476030840,
+              "name": "Fingerprint On Off Samsung Galaxy A326 A32 5g A326B",
+              "url": "https://www.tokopedia.com/dheckastore/fingerprint-on-off-samsung-galaxy-a326-a32-5g-a326b?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp55.000",
+                "number": 55000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "D.K STORE08",
+                "city": "Jakarta Timur",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.5",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 596703531,
+              "name": "100%ORIGINAL baterai SAMSUNG Gear S3 Frontier R760 / EB-BR760ABE",
+              "url": "https://www.tokopedia.com/pusatprodukorigi/100-original-baterai-samsung-gear-s3-frontier-r760-eb-br760abe?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp159.000",
+                "number": 159000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "PusatProductOriginal",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.9",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 11512072659,
+              "name": "Case Samsung Galaxy Z Flip 5 5G IMAK Ruiyi Carbon Fiber Casing",
+              "url": "https://www.tokopedia.com/grandepath/case-samsung-galaxy-z-flip-5-5g-imak-ruiyi-carbon-fiber-casing?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp120.000",
+                "number": 120000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Grandepath",
+                "city": "Jakarta Timur",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 3052259738,
+              "name": "LCD + TS SAMSUNG NOTE 5 N9200 N9208 OLED",
+              "url": "https://www.tokopedia.com/88part/lcd-ts-samsung-note-5-n9200-n9208-oled-gold?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp780.000",
+                "number": 780000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "88part1990",
+                "city": "Bandung",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16251196084,
+              "name": "LCD SAMSUNG NOTE 20 ULTRA ex COPOTAN AMOLED ORIGINAL +  include Frame BRONZE",
+              "url": "https://www.tokopedia.com/korvei-cellindo/lcd-samsung-note-20-ultra-ex-copotan-amoled-original-include-frame-bronze-1730866295862691279?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp599.000",
+                "number": 599000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "KORVEI",
+                "city": "Jakarta Barat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12313242345,
+              "name": "TOMBOL LUAR SAMSUNG A3 2017 A320 A5 2017 A520 A7 2017 A720 ON OFF VOL",
+              "url": "https://www.tokopedia.com/a1accessories/tombol-luar-samsung-a3-2017-a320-a5-2017-a520-a7-2017-a720-on-off-vol?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp8.400",
+                "number": 8400,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "A1 Accessoriess",
+                "city": "Jakarta Barat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.9",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 1873978299,
+              "name": "Samsung S10+ Plus Tempered Glass UV Glue Full Cover Anti Gores Curve",
+              "url": "https://www.tokopedia.com/dragonaccesories/samsung-s10-plus-tempered-glass-uv-glue-full-cover-anti-gores-curve?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp34.900",
+                "number": 34900,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "DragonAccesories",
+                "city": "Jakarta Utara",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.8",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 7378015931,
+              "name": "lcd samsung Note 20 ultra ori copotan 1000%",
+              "url": "https://www.tokopedia.com/bismillahgadstore/lcd-samsung-note-20-ultra-ori-copotan-1000?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp1.000.000",
+                "number": 1000000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "bismillah Gadstore",
+                "city": "Kab. Sidoarjo",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12378040378,
+              "name": "Tempered Glass Samsung Galaxy S24 / S24 Plus Anti gores Kaca Bening",
+              "url": "https://www.tokopedia.com/selalukasih/tempered-glass-samsung-galaxy-s24-s24-plus-anti-gores-kaca-bening-samsung-s24-92b8a?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp5.000",
+                "number": 5000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Selalu kasih murah",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.3",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12715730870,
+              "name": "Batok Casan Original Resmi Sein Indonesia Samsung 25 Watt New (Baru)",
+              "url": "https://www.tokopedia.com/leviistore/batok-casan-original-resmi-sein-indonesia-samsung-25-watt-new-baru?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp120.000",
+                "number": 120000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Levi,istore",
+                "city": "Jakarta Timur",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 14793194860,
+              "name": "Strap Samsung Galaxy Fit 3 Magnetic Loop Tali Pengganti Samsung Fit 3 Double Color",
+              "url": "https://www.tokopedia.com/klasikclub/strap-samsung-galaxy-fit-3-magnetic-loop-tali-pengganti-samsung-fit-3-double-color-grey-orange-93598?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp58.500",
+                "number": 58500,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Klasik Club",
+                "city": "Jakarta Utara",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16213785213,
+              "name": "Samsung Galaxy S23 Fe 5G Baterai Battery Batre Batere EB-BS711ABY Original",
+              "url": "https://www.tokopedia.com/access-original/samsung-galaxy-s23-fe-5g-baterai-battery-batre-batere-eb-bs711aby-original-1730846075174291409?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp279.000",
+                "number": 279000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Access Original",
+                "city": "Jakarta Barat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 2085013929,
+              "name": "gearbok mesin cuci Samsung top loading",
+              "url": "https://www.tokopedia.com/originalsparepartseken/gearbok-mesin-cuci-samsung-top-loading?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp250.000",
+                "number": 250000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "lautan sparepart_NEW",
+                "city": "Jakarta Utara",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.8",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12431602626,
+              "name": "TOMBOL LUAR ON OFF + VOL SAMSUNG A20S A207 ( MERAH DAN BIRU )",
+              "url": "https://www.tokopedia.com/88part/tombol-luar-on-off-vol-samsung-a20s-a207-merah-dan-biru-hitam-9a195?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp7.000",
+                "number": 7000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "88part1990",
+                "city": "Bandung",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12003254958,
+              "name": "Tempered Glass Samsung Galaxy S23 FE 5G Hikaru TG Full Cover CP",
+              "url": "https://www.tokopedia.com/armitech/tempered-glass-samsung-galaxy-s23-fe-5g-hikaru-tg-full-cover-cp?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp37.000",
+                "number": 37000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "ArmiTech",
+                "city": "Surabaya",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.3",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 1582032711,
+              "name": "GEARBOX MESIN CUCI SAMSUNG 2 TABUNG PULLY 148 MM 11Z GB 27",
+              "url": "https://www.tokopedia.com/kc-cool/gearbox-mesin-cuci-samsung-2-tabung-pully-148-mm-11z-gb-27?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp55.000",
+                "number": 55000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "KC Cool",
+                "city": "Jakarta Barat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 1750380423,
+              "name": "Kabel Data Kabel Cas Samsung Note 3 S5",
+              "url": "https://www.tokopedia.com/surabaya123345/kabel-data-kabel-cas-samsung-note-3-s5?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp3.000",
+                "number": 3000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Store acc hp_NEW",
+                "city": "Surabaya",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 8552891135,
+              "name": "BACKDOOR SAMSUNG G960/S9",
+              "url": "https://www.tokopedia.com/pulauhpbandung/backdoor-samsung-g960-s9-hitam?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp25.000",
+                "number": 25000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "PULAUHP BANDUNG",
+                "city": "Bandung",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 597995574,
+              "name": "kompresor kulkas samsung inverter original",
+              "url": "https://www.tokopedia.com/vernadh/kompresor-kulkas-samsung-inverter-original?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp1.699.500",
+                "number": 1699500,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "nania vernadh",
+                "city": "Jakarta Utara",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.8",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 9795174811,
+              "name": "SAMSUNG Book Cover Galaxy Tab S6 Original Bookcover ORIGINAL 100%",
+              "url": "https://www.tokopedia.com/original-partai/samsung-book-cover-galaxy-tab-s6-original-bookcover-original-100-brown?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp399.000",
+                "number": 399000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "pastioriginalasli",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 10355444147,
+              "name": "lcd samsung s20 ultra",
+              "url": "https://www.tokopedia.com/ygen/lcd-samsung-s20-ultra?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp850.000",
+                "number": 850000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "ygen compt",
+                "city": "Jakarta Utara",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 100376695462,
+              "name": "Case silicone pelindung remote tv samsung BN59-01337A / BN59-01330C / BN59-01312T",
+              "url": "https://www.tokopedia.com/haramania/case-silicone-pelindung-remote-tv-samsung-bn59-01337a-bn59-01330c-bn59-01312t-1731392898603320411?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp49.000",
+                "number": 49000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Th accesories",
+                "city": "Bandung",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 13482439918,
+              "name": "PBA MESIN MAINBOARD SAMSUNG GALAXY A30 - A305 MATI MULUS",
+              "url": "https://www.tokopedia.com/gians-shop/pba-mesin-mainboard-samsung-galaxy-a30-a305-mati-mulus?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp200.000",
+                "number": 200000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Gians shopp",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 1886832526,
+              "name": "SAMSUNG A8 2018 RAM 4/32GB SEIN",
+              "url": "https://www.tokopedia.com/acilstoregadget/samsung-a8-2018-ram-4-32gb-sein?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp900.000",
+                "number": 900000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "acilstoregadget",
+                "city": "Kab. Bekasi",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 11021576495,
+              "name": "Samsung A21s Ram 6 64GB",
+              "url": "https://www.tokopedia.com/sevvancell/samsung-a21s-ram-6-64gb-grade-e?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp870.000",
+                "number": 870000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Sevvancell",
+                "city": "Tangerang",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 15020397080,
+              "name": "PERNIK RUBBER TOMBOL LUAR ON OF OFF VOLUME SAMSUNG GALAXY J2 PRO / J250",
+              "url": "https://www.tokopedia.com/archive-itv/pernik-rubber-tombol-luar-on-of-off-volume-samsung-galaxy-j2-pro-j250-silver-d312f?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp5.000",
+                "number": 5000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "KINGACC88",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.9",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 2208652179,
+              "name": "BATERAI SAMSUNG NOTE 5 / SM-N9200 / SM- N9208 ORI 100% NEW",
+              "url": "https://www.tokopedia.com/88part/baterai-samsung-note-5-sm-n9200-sm-n9208-ori-100-new?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp95.000",
+                "number": 95000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "88part1990",
+                "city": "Bandung",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.8",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16056583346,
+              "name": "Papan board konektor charger Samsung Tab A9 X110 X115 in Mic Original",
+              "url": "https://www.tokopedia.com/hinatamoraya13/papan-board-konektor-charger-samsung-tab-a9-x110-x115-in-mic-original-1730787389887513892?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp115.000",
+                "number": 115000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "X-ONE ONLINE",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 15020998117,
+              "name": "Edisi nyari Samsung tab s9 fe trackpad keyboard fullset original",
+              "url": "https://www.tokopedia.com/f44i-shop/edisi-nyari-samsung-tab-s9-fe-trackpad-keyboard-fullset-original?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp876.543",
+                "number": 876543,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "F44i Shop",
+                "city": "Bandung",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 11050783630,
+              "name": "SAMSUNG WA90J5711SW / WA90J5711SW/SE modul pcb mesin cuci Top Loading",
+              "url": "https://www.tokopedia.com/acpartsmandiriin/samsung-wa90j5711sw-wa90j5711sw-se-modul-pcb-mesin-cuci-top-loading-oem-biasa-8e86d?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp210.000",
+                "number": 210000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "ACPARTS MANDIRI INDONESIA",
+                "city": "Tangerang",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.9",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 530336716,
+              "name": "BACKDOOR TUTUP BELAKANG SAMSUNG GALAXY A8 2018 A530",
+              "url": "https://www.tokopedia.com/donialexander/backdoor-tutup-belakang-samsung-galaxy-a8-2018-a530?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp21.000",
+                "number": 21000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Doni Alexander Spareparts",
+                "city": "Jakarta Timur",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 14521891082,
+              "name": "Strap Trail Loop Tali Jam Universal Samsung Watch Huawei",
+              "url": "https://www.tokopedia.com/omnivorashop/strap-trail-loop-tali-jam-universal-samsung-watch-huawei-black-grey-20mm-cb524?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp50.000",
+                "number": 50000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "omnivora shop",
+                "city": "Bandung",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 1424734572,
+              "name": "Case Samsung Galaxy A20 /A30 Sockpoof Transparent Premium Hard Case",
+              "url": "https://www.tokopedia.com/accesors/case-samsung-galaxy-a20-a30-sockpoof-transparent-premium-hard-case?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp35.000",
+                "number": 35000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "SINARJAYAOLSHOP",
+                "city": "Jakarta Selatan",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.9",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 1947458219,
+              "name": "Anti Gores Kaca Bening Note 20 Samsung Tempered Glass Screen Protector",
+              "url": "https://www.tokopedia.com/dragonaccesories/anti-gores-kaca-bening-note-20-samsung-tempered-glass-screen-protector?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp9.900",
+                "number": 9900,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "DragonAccesories",
+                "city": "Jakarta Utara",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.8",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 2884801017,
+              "name": "Samsung A5 2017 Black",
+              "url": "https://www.tokopedia.com/cgmam/samsung-a5-2017-black?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp300.000",
+                "number": 300000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "CuciGudangMurahAntiMahal",
+                "city": "Kab. Badung",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 10644029271,
+              "name": "Tombol volume Samsung Galaxy Z Fold2 Fold 2 F916",
+              "url": "https://www.tokopedia.com/barangjualcepat/tombol-volume-samsung-galaxy-z-fold2-fold-2-f916-gold?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp50.000",
+                "number": 50000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "aditiacpurnomo",
+                "city": "Jakarta Selatan",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.7",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 11796972986,
+              "name": "Tombol Kaypad Bagian Luar Power On Off Volume Samsung A50S A507F",
+              "url": "https://www.tokopedia.com/putracomal/tombol-kaypad-bagian-luar-power-on-off-volume-samsung-a50s-a507f-putih-96dea?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp13.000",
+                "number": 13000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "putra comal",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 11834081469,
+              "name": "Samsung MicroSDXC Pro Endurance 256GB",
+              "url": "https://www.tokopedia.com/eaonlineofficial/samsung-microsdxc-pro-endurance-256gb?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp564.500",
+                "number": 564500,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "EAONLINE",
+                "city": "Jakarta Barat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 1250457235,
+              "name": "Original Samsung Galaxy S10 Plus Araree A Fit Slim Silikon Softcase",
+              "url": "https://www.tokopedia.com/laku8pedia/original-samsung-galaxy-s10-plus-araree-a-fit-slim-silikon-softcase-clear-bening?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp39.000",
+                "number": 39000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Laku8pedia",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.9",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 1627633614,
+              "name": "Charger Samsung Tab A 8.0 2019 T295 Original Fast Charging Micro USB",
+              "url": "https://www.tokopedia.com/benua-acc-70/charger-samsung-tab-a-8-0-2019-t295-original-fast-charging-micro-usb?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp45.000",
+                "number": 45000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Benua acc",
+                "city": "Jakarta Utara",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.6",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 1135208792,
+              "name": "Samsung Galaxy Tab S4 10.5 inch T830 T835 T837 leather case ORI",
+              "url": "https://www.tokopedia.com/caseibukota/samsung-galaxy-tab-s4-10-5-inch-t830-t835-t837-leather-case-ori-hitam?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp175.000",
+                "number": 175000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "case ibukota id",
+                "city": "Jakarta Utara",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 738863235,
+              "name": "Segitiga Mesin cuci Samsung Front Loading WF-8590NHW WF-650U2BKW01",
+              "url": "https://www.tokopedia.com/kc-cool/segitiga-mesin-cuci-samsung-front-loading-wf-8590nhw-wf-650u2bkw01?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp320.000",
+                "number": 320000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "KC Cool",
+                "city": "Jakarta Barat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12366764879,
+              "name": "Samsung Galaxy A42 5G Generous Leather Original Case Hard Casing Cover",
+              "url": "https://www.tokopedia.com/t-original-store/samsung-galaxy-a42-5g-generous-leather-original-case-hard-casing-cover-hitam-sam-a42-5g-nc-4fa7e?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp50.000",
+                "number": 50000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "T-ORIGINAL STORE",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 11299804548,
+              "name": "Charger Magnetic Samsung Original New Samsung Galaxy Watch 5 6 7 Pro",
+              "url": "https://www.tokopedia.com/jaya-online-3/charger-magnetic-samsung-original-new-samsung-galaxy-watch-5-6-7-pro?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp249.000",
+                "number": 249000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "Jaya Online Shop Acc",
+                "city": "Kab. Tangerang",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.9",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 15961975124,
+              "name": "Frame samsung Z fold 4 original all variant",
+              "url": "https://www.tokopedia.com/royustore/frame-samsung-z-fold-4-original-all-variant-hitam-6a728?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp500.000",
+                "number": 500000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "royu_store",
+                "city": "Semarang",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 9031775535,
+              "name": "Samsung Galaxy A51 Lucky Case Silicone Cover SoftCase Silikon Casing",
+              "url": "https://www.tokopedia.com/17agustus/samsung-galaxy-a51-lucky-case-silicone-cover-softcase-silikon-casing-putih-cream-samsung-a71?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp50.000",
+                "number": 50000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "17 Agustus Case",
+                "city": "Jakarta Utara",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "4.9",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16583083250,
+              "name": "NEEWER Mini Rotatable Dual Side Top Handle for Smartphone Cage Handheld Kit Iphone Samsung Video Rig Aluminum Grips | 10103055 | SKU 1.039.0135",
+              "url": "https://www.tokopedia.com/hotijahkambing/neewer-mini-rotatable-dual-side-top-handle-for-smartphone-cage-handheld-kit-iphone-samsung-video-rig-aluminum-grips-10103055-sku-1-039-0135-1731170379453269274?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp670.000",
+                "number": 670000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "KOMEQ",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "",
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 14858535188,
+              "name": "SAMSUNG CHARGER 25W GAN ADAPTER USB-C EP-T2510",
+              "url": "https://www.tokopedia.com/rio-cellular/samsung-charger-25w-gan-adapter-usb-c-ep-t2510-dengan-kabel-c-2883c?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26search_id%3D2025080807520737BC2F75BF1BCF066BYJ%26src%3Dsearch",
+              "price": {
+                "text": "Rp175.000",
+                "number": 175000,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "name": "RIO CELLULAR",
+                "city": "Jakarta Pusat",
+                "__typename": "SearchProductV5Shop"
+              },
+              "rating": "5.0",
+              "__typename": "searchProductV5Product"
+            }
+          ],
+          "__typename": "SearchProductV5Data"
+        },
+        "__typename": "SearchProductV5Response"
+      }
+    }
+  }
+]
