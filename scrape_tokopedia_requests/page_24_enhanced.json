@@ -1,0 +1,3959 @@
+[
+  {
+    "data": {
+      "searchProductV5": {
+        "header": {
+          "totalData": 2793081,
+          "responseCode": 0,
+          "__typename": "SearchProductV5Header"
+        },
+        "data": {
+          "products": [
+            {
+              "id": 2465984329,
+              "name": "Headset/Handsfree Samsung AKG S10/S10+ 99% Original Tuned By AKG",
+              "url": "https://www.tokopedia.com/ranshopz/headset-handsfree-samsung-akg-s10-s10-99-original-tuned-by-akg-hitam?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/2465984329?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/11/26/974bb9e6-a30b-448b-b9cc-4d9c4961ce4b.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2021/11/26/974bb9e6-a30b-448b-b9cc-4d9c4961ce4b.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp15.000",
+                "number": 15000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 2416101,
+                "name": "RANShopz",
+                "url": "https://www.tokopedia.com/ranshopz",
+                "city": "Surabaya",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Surabaya",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "30+ terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 578,
+                "name": "Audio, Kamera & Elektronik Lainnya",
+                "breadcrumb": "audio-kamera-elektronik-lainnya/audio/earphone",
+                "gaKey": "/searchproduct/audio-kamera-elektronik-lainnya/audio/earphone/samsung/ranshopz/headset-handsfree-samsung-akg-s10-s10-99-original-tuned-by-akg-hitam",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "4.3",
+              "wishlist": false,
+              "meta": {
+                "countReview": 17,
+                "parentID": 2465984324,
+                "warehouseID": 105735,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 7373355711,
+              "name": "Flexibel On Off + Fingerprint Samsung A12 A13 4G A13 5G A125 A135 A136",
+              "url": "https://www.tokopedia.com/1stsparepart/flexibel-on-off-fingerprint-samsung-a12-a13-4g-a13-5g-a125-a135-a136?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/7373355711?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/12/31/78d2dbaf-e56f-4299-a5cc-aa7ca580c92c.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2022/12/31/78d2dbaf-e56f-4299-a5cc-aa7ca580c92c.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp18.000",
+                "number": 18000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 4959467,
+                "name": "Cssparepart",
+                "url": "https://www.tokopedia.com/1stsparepart",
+                "city": "Medan",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Medan",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "8 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-handphone/spare-part-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-handphone/spare-part-handphone/samsung/1stsparepart/flexibel-on-off-fingerprint-samsung-a12-a13-4g-a13-5g-a125-a135-a136",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 2,
+                "parentID": 0,
+                "warehouseID": 215901,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 10877394336,
+              "name": "Samsung Galaxy Tab S6 10.5 2019 Case,Slim Tri-Fold Cover for T860 T865",
+              "url": "https://www.tokopedia.com/b3d33/samsung-galaxy-tab-s6-10-5-2019-case-slim-tri-fold-cover-for-t860-t865-hitam-69c3e?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/10877394336?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/26/7eea8ba7-ee84-4d25-82bd-0b4646c8c558.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/26/7eea8ba7-ee84-4d25-82bd-0b4646c8c558.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp120.000",
+                "number": 120000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 1953110,
+                "name": "B3D3",
+                "url": "https://www.tokopedia.com/b3d33",
+                "city": "Jakarta Pusat",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Jakarta Pusat",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "1 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-tablet/casing-cover-tablet",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-tablet/casing-cover-tablet/samsung/b3d33/samsung-galaxy-tab-s6-10-5-2019-case-slim-tri-fold-cover-for-t860-t865-hitam-69c3e",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 1,
+                "parentID": 10877394325,
+                "warehouseID": 1558809,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12460592193,
+              "name": "LCD SAMSUNG T705",
+              "url": "https://www.tokopedia.com/novi-vina/lcd-samsung-t705?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/12460592193?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/1/4/c12e01cf-27ce-4cef-b3f1-bce092c1597e.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/1/4/c12e01cf-27ce-4cef-b3f1-bce092c1597e.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp600.000",
+                "number": 600000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 3000940,
+                "name": "Anggita031",
+                "url": "https://www.tokopedia.com/novi-vina",
+                "city": "Surabaya",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Surabaya",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "6 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-tablet/lcd-tablet",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-tablet/lcd-tablet/samsung/novi-vina/lcd-samsung-t705",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 4,
+                "parentID": 0,
+                "warehouseID": 2407031,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12800172807,
+              "name": "Samsung a8 2018 dual sim ex sein 4/32gb black murmer",
+              "url": "https://www.tokopedia.com/bekasion/samsung-a8-2018-dual-sim-ex-sein-4-32gb-black-murmer?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/12800172807?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/2/25/7f9ad60f-ec1e-4ea2-968b-582ada9a7c59.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/2/25/7f9ad60f-ec1e-4ea2-968b-582ada9a7c59.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp950.000",
+                "number": 950000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 2915200,
+                "name": "harissholution",
+                "url": "https://www.tokopedia.com/bekasion",
+                "city": "Bekasi",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Bekasi",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "1 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/handphone/android-os",
+                "gaKey": "/searchproduct/handphone-tablet/handphone/android-os/samsung/bekasion/samsung-a8-2018-dual-sim-ex-sein-4-32gb-black-murmer",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 1,
+                "parentID": 0,
+                "warehouseID": 2337974,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 13824628790,
+              "name": "kompresor samsung inverter side by side new",
+              "url": "https://www.tokopedia.com/saljuabadistore/kompresor-samsung-inverter-side-by-side-new?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/13824628790?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/6/11/2e10c2c7-98bb-4059-bfd7-73ffd842cab7.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/6/11/2e10c2c7-98bb-4059-bfd7-73ffd842cab7.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp2.000.000",
+                "number": 2000000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 11230643,
+                "name": "SALJUABADI_STORE",
+                "url": "https://www.tokopedia.com/saljuabadistore",
+                "city": "Bekasi",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Bekasi",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [],
+              "category": {
+                "id": 60,
+                "name": "Elektronik",
+                "breadcrumb": "elektronik/elektronik-dapur/kulkas",
+                "gaKey": "/searchproduct/elektronik/elektronik-dapur/kulkas/samsung/saljuabadistore/kompresor-samsung-inverter-side-by-side-new",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 11226235,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 9023464468,
+              "name": "Samsung SM-J400 J4 Minus",
+              "url": "https://www.tokopedia.com/eyangcomcell/samsung-sm-j400-j4-minus?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/9023464468?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/4/6/ad1ddf02-8f34-4922-a406-dc8d5b793cef.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/4/6/ad1ddf02-8f34-4922-a406-dc8d5b793cef.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp200.000",
+                "number": 200000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 4578526,
+                "name": "eyangcomcell",
+                "url": "https://www.tokopedia.com/eyangcomcell",
+                "city": "Kab. Bandung",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Kab. Bandung",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-handphone/ic-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-handphone/ic-handphone/samsung/eyangcomcell/samsung-sm-j400-j4-minus",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 3314358,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 13689655302,
+              "name": "casing samsung np300e normal",
+              "url": "https://www.tokopedia.com/asisakomputer/casing-samsung-np300e-normal?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/13689655302?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/6/3/4fac7fb5-73ff-426a-ab3e-a1d80715d66a.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/6/3/4fac7fb5-73ff-426a-ab3e-a1d80715d66a.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp300.000",
+                "number": 300000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 8371795,
+                "name": "Syatho komputer",
+                "url": "https://www.tokopedia.com/asisakomputer",
+                "city": "Kab. Tulungagung",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Kab. Tulungagung",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 297,
+                "name": "Komputer & Laptop",
+                "breadcrumb": "komputer-laptop/komponen-laptop/mainboard-laptop",
+                "gaKey": "/searchproduct/komputer-laptop/komponen-laptop/mainboard-laptop/samsung/asisakomputer/casing-samsung-np300e-normal",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 8552147,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 2501728245,
+              "name": "HEADSET EARPHONE HANDSFREE SAMSUNG GALAXY A70 A71 52S ORIGINAL 100%",
+              "url": "https://www.tokopedia.com/felix8899/headset-earphone-handsfree-samsung-galaxy-a70-a71-52s-original-100-hitam?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/2501728245?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/12/4/79a3da7a-40d9-4afa-a4b3-d4fa1f05323f.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2021/12/4/79a3da7a-40d9-4afa-a4b3-d4fa1f05323f.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp22.000",
+                "number": 22000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 5148800,
+                "name": "Felix88999",
+                "url": "https://www.tokopedia.com/felix8899",
+                "city": "Bekasi",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Bekasi",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "7 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 578,
+                "name": "Audio, Kamera & Elektronik Lainnya",
+                "breadcrumb": "audio-kamera-elektronik-lainnya/audio/earphone",
+                "gaKey": "/searchproduct/audio-kamera-elektronik-lainnya/audio/earphone/samsung/felix8899/headset-earphone-handsfree-samsung-galaxy-a70-a71-52s-original-100-hitam",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 4,
+                "parentID": 1817314246,
+                "warehouseID": 3666839,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16531151077,
+              "name": "Smart Book Cover Galaxy Tab S9 FE+, S9+ dan S9+ 5G Ori Samsung",
+              "url": "https://www.tokopedia.com/shubur-gadget/smart-book-cover-galaxy-tab-s9-fe-s9-dan-s9-5g-ori-samsung-1731113497438094463?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/16531151077?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2025/4/4/06a8d28f-86e3-4bff-b57a-d9a3805ab8ab.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2025/4/4/06a8d28f-86e3-4bff-b57a-d9a3805ab8ab.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp726.000",
+                "number": 726000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 18551251,
+                "name": "shubur gadget",
+                "url": "https://www.tokopedia.com/shubur-gadget",
+                "city": "Kab. Bandung Barat",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Kab. Bandung Barat",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-tablet/tablet-sleeve",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-tablet/tablet-sleeve/samsung/shubur-gadget/smart-book-cover-galaxy-tab-s9-fe-s9-dan-s9-5g-ori-samsung-1731113497438094463",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 18574531,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 553950489,
+              "name": "BOARD CHARGER PAPAN CHARGER SAMSUNG A30",
+              "url": "https://www.tokopedia.com/ic-sparepart/board-charger-papan-charger-samsung-a30?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/553950489?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/11/25/0c0f30f4-94f1-49bb-b0c8-0b8798f7c2e5.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2022/11/25/0c0f30f4-94f1-49bb-b0c8-0b8798f7c2e5.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp75.000",
+                "number": 75000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 2566498,
+                "name": "komunitas sparepart",
+                "url": "https://www.tokopedia.com/ic-sparepart",
+                "city": "Jakarta Pusat",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Jakarta Pusat",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "2 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-handphone/spare-part-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-handphone/spare-part-handphone/samsung/ic-sparepart/board-charger-papan-charger-samsung-a30",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 2075443,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 1631728500,
+              "name": "FLEXIBLE SAMSUNG A70 A705 A705F 2019 FINGERPRINT SENSOR SIDIK JARI",
+              "url": "https://www.tokopedia.com/1parts/flexible-samsung-a70-a705-a705f-2019-fingerprint-sensor-sidik-jari?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/1631728500?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/2/26/51255e13-684d-49da-9fc3-c9a1e5497112.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2021/2/26/51255e13-684d-49da-9fc3-c9a1e5497112.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp20.000",
+                "number": 20000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 914168,
+                "name": "ONEPARTS",
+                "url": "https://www.tokopedia.com/1parts",
+                "city": "Jakarta Pusat",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Pusat",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "30+ terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-handphone/spare-part-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-handphone/spare-part-handphone/samsung/1parts/flexible-samsung-a70-a705-a705f-2019-fingerprint-sensor-sidik-jari",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "4.3",
+              "wishlist": false,
+              "meta": {
+                "countReview": 23,
+                "parentID": 0,
+                "warehouseID": 30072,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 15857011049,
+              "name": "SAMSUNG A16 5G HYDROGEL VIVAN FILM PELINDUNG LAYAR HIDROGEL",
+              "url": "https://www.tokopedia.com/818-jaya-cell/samsung-a16-5g-hydrogel-vivan-film-pelindung-layar-hidrogel-crystal-clear-depan-588f7?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/15857011049?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/11/30/b7d0e8f9-7b05-494d-b438-300d7704dcfc.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/11/30/b7d0e8f9-7b05-494d-b438-300d7704dcfc.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp25.000",
+                "number": 25000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 4018331,
+                "name": "818 JAYA CELL",
+                "url": "https://www.tokopedia.com/818-jaya-cell",
+                "city": "Depok",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Depok",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "2 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/screen-protector-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/screen-protector-handphone/samsung/818-jaya-cell/samsung-a16-5g-hydrogel-vivan-film-pelindung-layar-hidrogel-crystal-clear-depan-588f7",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 1,
+                "parentID": 15857011044,
+                "warehouseID": 3004904,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 1802723296,
+              "name": "Battery Samsung Galaxy A51 A515 Battery Samsung A51 Ori",
+              "url": "https://www.tokopedia.com/1stsparepart/battery-samsung-galaxy-a51-a515-battery-samsung-a51-ori?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/1802723296?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/4/27/05caf570-9fff-4618-a2f6-d3bfd215f9ca.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2021/4/27/05caf570-9fff-4618-a2f6-d3bfd215f9ca.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp100.000",
+                "number": 100000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 4959467,
+                "name": "Cssparepart",
+                "url": "https://www.tokopedia.com/1stsparepart",
+                "city": "Medan",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Medan",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "10 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-handphone/baterai-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-handphone/baterai-handphone/samsung/1stsparepart/battery-samsung-galaxy-a51-a515-battery-samsung-a51-ori",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 4,
+                "parentID": 0,
+                "warehouseID": 215901,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 3225533057,
+              "name": "Samsung S22/S22plus/S22ultra garansi resmi Samsung Indonesia",
+              "url": "https://www.tokopedia.com/zeanstore88/samsung-s22-s22plus-s22ultra-garansi-resmi-samsung-indonesia-s22-8-256?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/3225533057?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/3/14/1fd83eab-b446-458b-8d37-b5e12f8f6da3.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2022/3/14/1fd83eab-b446-458b-8d37-b5e12f8f6da3.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp10.100.000",
+                "number": 10100000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 7736545,
+                "name": "zean store88",
+                "url": "https://www.tokopedia.com/zeanstore88",
+                "city": "Bekasi",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Bekasi",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "14 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/handphone/android-os",
+                "gaKey": "/searchproduct/handphone-tablet/handphone/android-os/samsung/zeanstore88/samsung-s22-s22plus-s22ultra-garansi-resmi-samsung-indonesia-s22-8-256",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 8,
+                "parentID": 3225515165,
+                "warehouseID": 7942384,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16014344658,
+              "name": "BATERAI BATRE BATTERY SAMSUNG GALAXY J5 PRO J530",
+              "url": "https://www.tokopedia.com/donialexander/baterai-batre-battery-samsung-galaxy-j5-pro-j530-1730759089566877361?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/16014344658?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2025/1/8/3da0cf84-da88-4eee-b1fb-6d1d7343ac4f.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2025/1/8/3da0cf84-da88-4eee-b1fb-6d1d7343ac4f.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp47.000",
+                "number": 47000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 1858556,
+                "name": "Doni Alexander Spareparts",
+                "url": "https://www.tokopedia.com/donialexander",
+                "city": "Jakarta Timur",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Timur",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "5 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-handphone/baterai-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-handphone/baterai-handphone/samsung/donialexander/baterai-batre-battery-samsung-galaxy-j5-pro-j530-1730759089566877361",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "4.3",
+              "wishlist": false,
+              "meta": {
+                "countReview": 3,
+                "parentID": 463888223,
+                "warehouseID": 73918,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16562103073,
+              "name": "Repair Fleksibel samsung z fold 4 langsung pasang bisa di tunggu",
+              "url": "https://www.tokopedia.com/almunaphone/repair-fleksibel-samsung-z-fold-4-langsung-pasang-bisa-di-tunggu-1731146060644976213?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/16562103073?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2025/4/11/fe9ac67b-d9ed-412b-a215-51d55c52f43b.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2025/4/11/fe9ac67b-d9ed-412b-a215-51d55c52f43b.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp1.300.000",
+                "number": 1300000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 1604468,
+                "name": "Almuna Phone",
+                "url": "https://www.tokopedia.com/almunaphone",
+                "city": "Jakarta Barat",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Jakarta Barat",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-handphone/spare-part-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-handphone/spare-part-handphone/samsung/almunaphone/repair-fleksibel-samsung-z-fold-4-langsung-pasang-bisa-di-tunggu-1731146060644976213",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 850056,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12585239598,
+              "name": "Case Samsung S10+ Plus Urban Armor Gear UAG- Clear",
+              "url": "https://www.tokopedia.com/-yayayashop/case-samsung-s10-plus-urban-armor-gear-uag-clear?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/12585239598?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/1/20/1739d291-3411-499f-ad55-6ec9a4b9d0c3.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/1/20/1739d291-3411-499f-ad55-6ec9a4b9d0c3.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp250.000",
+                "number": 250000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 1536614,
+                "name": "Yayayaashop",
+                "url": "https://www.tokopedia.com/-yayayashop",
+                "city": "Jakarta Utara",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Jakarta Utara",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-tablet/casing-cover-tablet",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-tablet/casing-cover-tablet/samsung/-yayayashop/case-samsung-s10-plus-urban-armor-gear-uag-clear",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 790149,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 15556404130,
+              "name": "Hape Outdoor Samsung C3350 Xcover 2 GT-C3350 Seken Normal IP67 Certified",
+              "url": "https://www.tokopedia.com/cncphoneshop/hape-outdoor-samsung-c3350-xcover-2-gt-c3350-seken-normal-ip67-certified?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/15556404130?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/10/18/e7d08ab3-4e9d-431a-b454-53b6d77cec23.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/10/18/e7d08ab3-4e9d-431a-b454-53b6d77cec23.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp350.000",
+                "number": 350000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 221213,
+                "name": "CNC phoneshop",
+                "url": "https://www.tokopedia.com/cncphoneshop",
+                "city": "Jakarta Pusat",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Pusat",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/handphone/feature-phone",
+                "gaKey": "/searchproduct/handphone-tablet/handphone/feature-phone/samsung/cncphoneshop/hape-outdoor-samsung-c3350-xcover-2-gt-c3350-seken-normal-ip67-certified",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 297637,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 9946916456,
+              "name": "Samsung S23 / S23+ S23 + Double Side Glass Magnetic Case Metal Cover",
+              "url": "https://www.tokopedia.com/17agustus/samsung-s23-s23-s23-double-side-glass-magnetic-case-metal-cover-merah-s23-0b33d?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/9946916456?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/6/5/dfa8ce5b-f588-46b2-9e51-ce06fc25a897.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/6/5/dfa8ce5b-f588-46b2-9e51-ce06fc25a897.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp90.000",
+                "number": 90000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 2952581,
+                "name": "17 Agustus Case",
+                "url": "https://www.tokopedia.com/17agustus",
+                "city": "Jakarta Utara",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Utara",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "6 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/soft-case-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/soft-case-handphone/samsung/17agustus/samsung-s23-s23-s23-double-side-glass-magnetic-case-metal-cover-merah-s23-0b33d",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 2,
+                "parentID": 9946916436,
+                "warehouseID": 81317,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 6614734513,
+              "name": "Anti Gores Hydrogel Samsung Galaxy Z Fold 4 5G Fullset 3 in 1",
+              "url": "https://www.tokopedia.com/menarame/anti-gores-hydrogel-samsung-galaxy-z-fold-4-5g-fullset-3-in-1?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/6614734513?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/11/7/2fe4fded-c6aa-424a-8ff6-b108a61716ea.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/11/7/2fe4fded-c6aa-424a-8ff6-b108a61716ea.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp102.000",
+                "number": 102000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 6045316,
+                "name": "Menarame",
+                "url": "https://www.tokopedia.com/menarame",
+                "city": "Bandung",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Bandung",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "8 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/screen-protector-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/screen-protector-handphone/samsung/menarame/anti-gores-hydrogel-samsung-galaxy-z-fold-4-5g-fullset-3-in-1",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 3,
+                "parentID": 0,
+                "warehouseID": 6304295,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 15378525071,
+              "name": "Case Samsung Z Fold 6 5G Ultra Thin Transparant Clear Fuzed Hybrid Casing Cover Galaxy Fold6",
+              "url": "https://www.tokopedia.com/i-case/case-samsung-z-fold-6-5g-ultra-thin-transparant-clear-fuzed-hybrid-casing-cover-galaxy-fold6-black-979e5?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/15378525071?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/10/5/e16abfe0-a983-4baf-979d-867f0d90bb65.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/10/5/e16abfe0-a983-4baf-979d-867f0d90bb65.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp165.000",
+                "number": 165000,
+                "range": "",
+                "original": "Rp200.000",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 524075,
+                "name": "i-case",
+                "url": "https://www.tokopedia.com/i-case",
+                "city": "Jakarta Utara",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Utara",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "6 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_ribbon",
+                  "title": "18%",
+                  "type": "red",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/soft-case-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/soft-case-handphone/samsung/i-case/case-samsung-z-fold-6-5g-ultra-thin-transparant-clear-fuzed-hybrid-casing-cover-galaxy-fold6-black-979e5",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "4.5",
+              "wishlist": false,
+              "meta": {
+                "countReview": 2,
+                "parentID": 15378086084,
+                "warehouseID": 72447,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16642358263,
+              "name": "SAMSUNG A13 RAM 6GB INTERNAL 128GB",
+              "url": "https://www.tokopedia.com/trizaolshop/samsung-a13-ram-6gb-internal-128gb-1731322327407232051?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/16642358263?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2025/5/2/3444e09d-0c74-40ae-a1c8-9857fbafdcb9.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2025/5/2/3444e09d-0c74-40ae-a1c8-9857fbafdcb9.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp950.000",
+                "number": 950000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 4545167,
+                "name": "Triza online shop",
+                "url": "https://www.tokopedia.com/trizaolshop",
+                "city": "Kab. Boyolali",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Kab. Boyolali",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/tablet/android-os",
+                "gaKey": "/searchproduct/handphone-tablet/tablet/android-os/samsung/trizaolshop/samsung-a13-ram-6gb-internal-128gb-1731322327407232051",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 3294931,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12212015181,
+              "name": "Case Samsung S21/S21 Plus Softcase Premium Black Sillikon Pelindung Hp",
+              "url": "https://www.tokopedia.com/doublel-3/case-samsung-s21-s21-plus-softcase-premium-black-sillikon-pelindung-hp-samsung-s21-99a60?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/12212015181?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/6/1/83252018-dd89-4d1a-87d9-6d99126817fa.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2021/6/1/83252018-dd89-4d1a-87d9-6d99126817fa.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp27.500",
+                "number": 27500,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 7223302,
+                "name": "yaazzshop",
+                "url": "https://www.tokopedia.com/doublel-3",
+                "city": "Surabaya",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Surabaya",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "1 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/soft-case-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/soft-case-handphone/samsung/doublel-3/case-samsung-s21-s21-plus-softcase-premium-black-sillikon-pelindung-hp-samsung-s21-99a60",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 1876759692,
+                "warehouseID": 7431913,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 14917742644,
+              "name": "LED Module NC Samsung dof warna Warm White 3000K power 1,2W DC 12V.",
+              "url": "https://www.tokopedia.com/jayaled89/led-module-nc-samsung-dof-warna-warm-white-3000k-power-1-2w-dc-12v?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/14917742644?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/8/24/50256b2d-bff5-4147-8be4-3f46fb059cd3.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/8/24/50256b2d-bff5-4147-8be4-3f46fb059cd3.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp8.000",
+                "number": 8000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 10759127,
+                "name": "jaya led89",
+                "url": "https://www.tokopedia.com/jayaled89",
+                "city": "Jakarta Barat",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Barat",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "500+ terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 4029,
+                "name": "Pertukangan",
+                "breadcrumb": "pertukangan/lampu/bohlam",
+                "gaKey": "/searchproduct/pertukangan/lampu/bohlam/samsung/jayaled89/led-module-nc-samsung-dof-warna-warm-white-3000k-power-1-2w-dc-12v",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 2,
+                "parentID": 0,
+                "warehouseID": 10780680,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 14726539824,
+              "name": "CASETiFY x ONE PIECE - Impact New Four Emperors Case Samsung S24 Ultra",
+              "url": "https://www.tokopedia.com/casetify-indonesia/casetify-x-one-piece-impact-new-four-emperors-case-samsung-s24-ultra?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/14726539824?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/8/6/987be646-810e-49fc-b2e8-ec7b52772d85.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/8/6/987be646-810e-49fc-b2e8-ec7b52772d85.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp1.550.000",
+                "number": 1550000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 9660780,
+                "name": "CASETiFY Indonesia",
+                "url": "https://www.tokopedia.com/casetify-indonesia",
+                "city": "Jakarta Utara",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Utara",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "preventive_overlay",
+                  "title": "PreOrder",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/handphone/android-os",
+                "gaKey": "/searchproduct/handphone-tablet/handphone/android-os/samsung/casetify-indonesia/casetify-x-one-piece-impact-new-four-emperors-case-samsung-s24-ultra",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 9768715,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 378773468,
+              "name": "Screen Protector Samsung Galaxy Tab A 10.1 2016 with S-Pen P580 P585",
+              "url": "https://www.tokopedia.com/areahp/screen-protector-samsung-galaxy-tab-a-10-1-2016-with-s-pen-p580-p585?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/378773468?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/product-1/2018/12/20/157877/157877_603fb6f9-ac65-48b9-aed3-1e9cbd12a052_300_300.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/product-1/2018/12/20/157877/157877_603fb6f9-ac65-48b9-aed3-1e9cbd12a052_300_300.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp15.000",
+                "number": 15000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 157877,
+                "name": "AreaHP77",
+                "url": "https://www.tokopedia.com/areahp",
+                "city": "Jakarta Pusat",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Pusat",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "26 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-tablet/screen-guard-tablet",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-tablet/screen-guard-tablet/samsung/areahp/screen-protector-samsung-galaxy-tab-a-10-1-2016-with-s-pen-p580-p585",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "4.7",
+              "wishlist": false,
+              "meta": {
+                "countReview": 11,
+                "parentID": 0,
+                "warehouseID": 140309,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 538451321,
+              "name": "ANGGITA031 _ BATTERY SAMSUNG G925 / S6 EDGE",
+              "url": "https://www.tokopedia.com/novi-vina/anggita031-battery-samsung-g925-s6-edge-1729816005401740991?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/538451321?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/product-1/2019/8/21/27866353/27866353_fd40abb4-ea10-45b1-a799-2aef333308f9_1280_1280",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/product-1/2019/8/21/27866353/27866353_fd40abb4-ea10-45b1-a799-2aef333308f9_1280_1280",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp70.000",
+                "number": 70000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 3000940,
+                "name": "Anggita031",
+                "url": "https://www.tokopedia.com/novi-vina",
+                "city": "Surabaya",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Surabaya",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "5 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-handphone/baterai-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-handphone/baterai-handphone/samsung/novi-vina/anggita031-battery-samsung-g925-s6-edge-1729816005401740991",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 2,
+                "parentID": 0,
+                "warehouseID": 2407031,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 10808014052,
+              "name": "Samsung Micro SD EVO Plus 256GB 180 Mbps",
+              "url": "https://www.tokopedia.com/olfrey/samsung-micro-sd-evo-plus-256gb-180-mbps-1729925595317307258?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/10808014052?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/7/22/d1c187e8-4476-49dc-bf41-963a36682e66.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/7/22/d1c187e8-4476-49dc-bf41-963a36682e66.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp415.000",
+                "number": 415000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 13035694,
+                "name": "Juragan Komputer_NEW",
+                "url": "https://www.tokopedia.com/olfrey",
+                "city": "Jakarta Pusat",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Pusat",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 297,
+                "name": "Komputer & Laptop",
+                "breadcrumb": "komputer-laptop/memory-card/minisd-card",
+                "gaKey": "/searchproduct/komputer-laptop/memory-card/minisd-card/samsung/olfrey/samsung-micro-sd-evo-plus-256gb-180-mbps-1729925595317307258",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 12950631,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 1283931069,
+              "name": "Samsung Note 20 Ultra LOVE MEI Armor Hard Soft Case Hardcase Softcase",
+              "url": "https://www.tokopedia.com/procase/samsung-note-20-ultra-love-mei-armor-hard-soft-case-hardcase-softcase-hitam?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/1283931069?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2020/10/26/56a27021-8f43-41ef-82e4-4ed475510cb6.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2020/10/26/56a27021-8f43-41ef-82e4-4ed475510cb6.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp423.000",
+                "number": 423000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 1385609,
+                "name": "ProCase Store",
+                "url": "https://www.tokopedia.com/procase",
+                "city": "Jakarta Pusat",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Jakarta Pusat",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "5 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/soft-case-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/soft-case-handphone/samsung/procase/samsung-note-20-ultra-love-mei-armor-hard-soft-case-hardcase-softcase-hitam",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 4,
+                "parentID": 1283931063,
+                "warehouseID": 665955,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 5234523645,
+              "name": "TOUCHCREEN TAB SAMSUNG T116 | TAB 3V BLACK/WHITE",
+              "url": "https://www.tokopedia.com/timoritel-surabaya/touchcreen-tab-samsung-t116-tab-3v-black-white-hitam?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/5234523645?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/1/14/bedf1e25-2db0-430a-af9f-c601bd451c11.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2021/1/14/bedf1e25-2db0-430a-af9f-c601bd451c11.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp32.000",
+                "number": 32000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 4222775,
+                "name": "TIMORITEL WTC SURABAYA",
+                "url": "https://www.tokopedia.com/timoritel-surabaya",
+                "city": "Surabaya",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Surabaya",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "18 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-handphone/lcd-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-handphone/lcd-handphone/samsung/timoritel-surabaya/touchcreen-tab-samsung-t116-tab-3v-black-white-hitam",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "4.5",
+              "wishlist": false,
+              "meta": {
+                "countReview": 13,
+                "parentID": 1468748614,
+                "warehouseID": 3119978,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 183350008,
+              "name": "Charger Samsung Galaxy S3 / S4 / Note 1 / Note 2 (Original 99%)",
+              "url": "https://www.tokopedia.com/arisusanto/charger-samsung-galaxy-s3-s4-note-1-note-2-original-99?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/183350008?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/product-1/2017/5/19/139878/139878_599b60dd-6ccd-4db9-8757-83ffd1e8e1f2.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/product-1/2017/5/19/139878/139878_599b60dd-6ccd-4db9-8757-83ffd1e8e1f2.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp34.000",
+                "number": 34000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 139878,
+                "name": "Ari Susanto Store",
+                "url": "https://www.tokopedia.com/arisusanto",
+                "city": "Jakarta Barat",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Barat",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "40+ terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/charger-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/charger-handphone/samsung/arisusanto/charger-samsung-galaxy-s3-s4-note-1-note-2-original-99",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "4.9",
+              "wishlist": false,
+              "meta": {
+                "countReview": 29,
+                "parentID": 0,
+                "warehouseID": 283690,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 320391290,
+              "name": "SAMSUNG Dex Station S9 , S9+ , Note 8 , S8 , S8+ , Note 9 ORIGINAL",
+              "url": "https://www.tokopedia.com/original-1/samsung-dex-station-s9-s9-note-8-s8-s8-note-9-original?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/320391290?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/product-1/2018/8/19/8936588/8936588_0cbac562-3515-479f-9668-c0018d749653_498_555.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/product-1/2018/8/19/8936588/8936588_0cbac562-3515-479f-9668-c0018d749653_498_555.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp850.000",
+                "number": 850000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 1080875,
+                "name": "Original Satu",
+                "url": "https://www.tokopedia.com/original-1",
+                "city": "Jakarta Pusat",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Jakarta Pusat",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "18 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/docking-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/docking-handphone/samsung/original-1/samsung-dex-station-s9-s9-note-8-s8-s8-note-9-original",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 4,
+                "parentID": 0,
+                "warehouseID": 1255584,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 289015048,
+              "name": "Nilkin Qin Black Leather Case Samsung Galaxy note 8",
+              "url": "https://www.tokopedia.com/agenplumoptrimax/nilkin-qin-black-leather-case-samsung-galaxy-note-8?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/289015048?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/product-1/2018/5/13/31099727/31099727_ec97bf85-9b29-4eff-9268-08bfae470bca_900_650.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/product-1/2018/5/13/31099727/31099727_ec97bf85-9b29-4eff-9268-08bfae470bca_900_650.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp90.000",
+                "number": 90000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 3301497,
+                "name": "Agen Plum OPTRIMAX",
+                "url": "https://www.tokopedia.com/agenplumoptrimax",
+                "city": "Kab. Tangerang",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Kab. Tangerang",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/flip-cover-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/flip-cover-handphone/samsung/agenplumoptrimax/nilkin-qin-black-leather-case-samsung-galaxy-note-8",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 2604997,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 15936917140,
+              "name": "Casing Samsung Galaxy S20 FE Hard Soft Case Magsafe Ring Stand Magnetic Wireless Pengisian Nirkabel Casing Cover",
+              "url": "https://www.tokopedia.com/lanjayacc99/casing-samsung-galaxy-s20-fe-hard-soft-case-magsafe-ring-stand-magnetic-wireless-pengisian-nirkabel-casing-cover-silver-c22ae?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/15936917140?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/12/18/40277afe-15dc-4241-8e86-75734d7d261e.png",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/12/18/40277afe-15dc-4241-8e86-75734d7d261e.png",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp69.000",
+                "number": 69000,
+                "range": "",
+                "original": "Rp79.000",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 7544867,
+                "name": "Adi Casing",
+                "url": "https://www.tokopedia.com/lanjayacc99",
+                "city": "Kab. Tangerang",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Kab. Tangerang",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "1 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_ribbon",
+                  "title": "13%",
+                  "type": "red",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/soft-case-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/soft-case-handphone/samsung/lanjayacc99/casing-samsung-galaxy-s20-fe-hard-soft-case-magsafe-ring-stand-magnetic-wireless-pengisian-nirkabel-casing-cover-silver-c22ae",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 1,
+                "parentID": 15936917139,
+                "warehouseID": 7752705,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 2285123567,
+              "name": "Charger Samsung Fast Charging 3.0 Micro",
+              "url": "https://www.tokopedia.com/nanocomp/charger-samsung-fast-charging-3-0-micro?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/2285123567?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/10/14/d050fc9c-3f20-4c99-b7ea-add475665820.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2021/10/14/d050fc9c-3f20-4c99-b7ea-add475665820.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp27.000",
+                "number": 27000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 1009745,
+                "name": "Nano Comp",
+                "url": "https://www.tokopedia.com/nanocomp",
+                "city": "Malang",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Malang",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "2 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/charger-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/charger-handphone/samsung/nanocomp/charger-samsung-fast-charging-3-0-micro",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 2,
+                "parentID": 0,
+                "warehouseID": 3897,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 13435228803,
+              "name": "PBA MESIN MAINBOARD SAMSUNG GALAXY A03S MATI TOTAL",
+              "url": "https://www.tokopedia.com/giansshopbekasi/pba-mesin-mainboard-samsung-galaxy-a03s-mati-total?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/13435228803?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/5/17/851b5b3a-0215-499f-b757-e1d2416d7d81.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/5/17/851b5b3a-0215-499f-b757-e1d2416d7d81.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp250.000",
+                "number": 250000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 17532090,
+                "name": "gianshop.bekasi",
+                "url": "https://www.tokopedia.com/giansshopbekasi",
+                "city": "Bekasi",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Bekasi",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-handphone/spare-part-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-handphone/spare-part-handphone/samsung/giansshopbekasi/pba-mesin-mainboard-samsung-galaxy-a03s-mati-total",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 17347678,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 11667042762,
+              "name": "samsung a3 2016 second",
+              "url": "https://www.tokopedia.com/sevencellshop/samsung-a3-2016-second-hitam-3e777?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/11667042762?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/9/23/f4605c5b-f25f-4d1c-8f6e-6c770a5fd6d1.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/9/23/f4605c5b-f25f-4d1c-8f6e-6c770a5fd6d1.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp550.000",
+                "number": 550000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 16427956,
+                "name": "sevencell_shop",
+                "url": "https://www.tokopedia.com/sevencellshop",
+                "city": "Kab. Semarang",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Kab. Semarang",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "1 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/handphone/android-os",
+                "gaKey": "/searchproduct/handphone-tablet/handphone/android-os/samsung/sevencellshop/samsung-a3-2016-second-hitam-3e777",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 1,
+                "parentID": 11667042760,
+                "warehouseID": 16256469,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 13939787745,
+              "name": "Mesin Samsung S9Plus G965 Minus Bekas Bongkaran",
+              "url": "https://www.tokopedia.com/kosmossparepart/mesin-samsung-s9plus-g965-minus-bekas-bongkaran?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/13939787745?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/6/19/3bab4bef-e2b1-4ad9-ac70-363a47b67e6c.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/6/19/3bab4bef-e2b1-4ad9-ac70-363a47b67e6c.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp325.000",
+                "number": 325000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 14802687,
+                "name": "kosmos sparepart",
+                "url": "https://www.tokopedia.com/kosmossparepart",
+                "city": "Jakarta Utara",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Utara",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-handphone/spare-part-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-handphone/spare-part-handphone/samsung/kosmossparepart/mesin-samsung-s9plus-g965-minus-bekas-bongkaran",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 14665452,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 2146709528,
+              "name": "Ume Hard Case Samsung Galaxy A20 / A30",
+              "url": "https://www.tokopedia.com/originalstoreyk/ume-hard-case-samsung-galaxy-a20-a30?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/2146709528?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/9/7/d60686ad-5317-4abb-960b-7b8494d79633.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2021/9/7/d60686ad-5317-4abb-960b-7b8494d79633.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp35.000",
+                "number": 35000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 4303624,
+                "name": "ORIGINAL STORE yogya",
+                "url": "https://www.tokopedia.com/originalstoreyk",
+                "city": "Kab. Sleman",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Kab. Sleman",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "3 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/soft-case-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/soft-case-handphone/samsung/originalstoreyk/ume-hard-case-samsung-galaxy-a20-a30",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 2,
+                "parentID": 0,
+                "warehouseID": 3162796,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 7152460439,
+              "name": "samsung ativ 500t tanpa charger",
+              "url": "https://www.tokopedia.com/yoffi/samsung-ativ-500t-tanpa-charger?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/7152460439?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/12/6/d7e396f9-2a03-43ca-bb7c-7e6a9e23653f.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2022/12/6/d7e396f9-2a03-43ca-bb7c-7e6a9e23653f.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp350.000",
+                "number": 350000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 3768082,
+                "name": "YOFFI",
+                "url": "https://www.tokopedia.com/yoffi",
+                "city": "Depok",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Depok",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [],
+              "category": {
+                "id": 297,
+                "name": "Komputer & Laptop",
+                "breadcrumb": "komputer-laptop/laptop/laptop-2-in-1",
+                "gaKey": "/searchproduct/komputer-laptop/laptop/laptop-2-in-1/samsung/yoffi/samsung-ativ-500t-tanpa-charger",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 2871252,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16001831217,
+              "name": "Casing Samsung S22 Ultra ORI , Baru gresss masih segel",
+              "url": "https://www.tokopedia.com/kohhen/casing-samsung-s22-ultra-ori-baru-gresss-masih-segel-mocolo-300d9?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/16001831217?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2025/1/5/0489d0b6-be15-4a7b-988b-e0acbe69a658.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2025/1/5/0489d0b6-be15-4a7b-988b-e0acbe69a658.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp100.000",
+                "number": 100000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 15865464,
+                "name": "Koh Hen",
+                "url": "https://www.tokopedia.com/kohhen",
+                "city": "Surabaya",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Surabaya",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "2 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-tablet/casing-cover-tablet",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-tablet/casing-cover-tablet/samsung/kohhen/casing-samsung-s22-ultra-ori-baru-gresss-masih-segel-mocolo-300d9",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 1,
+                "parentID": 16001831214,
+                "warehouseID": 15704656,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 14501085672,
+              "name": "Motorola Rokr e8 black not v3 v3i nokia e90 9300 samsung s24 iphone 15 poco phone",
+              "url": "https://www.tokopedia.com/tokogadgetzz/motorola-rokr-e8-black-not-v3-v3i-nokia-e90-9300-samsung-s24-iphone-15-poco-phone?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/14501085672?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/7/22/43b911a9-14af-4892-a0d2-b918aecf5293.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/7/22/43b911a9-14af-4892-a0d2-b918aecf5293.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp1.800.000",
+                "number": 1800000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 3036058,
+                "name": "tokogadgetzz",
+                "url": "https://www.tokopedia.com/tokogadgetzz",
+                "city": "Bandung",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Bandung",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/handphone/android-os",
+                "gaKey": "/searchproduct/handphone-tablet/handphone/android-os/samsung/tokogadgetzz/motorola-rokr-e8-black-not-v3-v3i-nokia-e90-9300-samsung-s24-iphone-15-poco-phone",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 2433104,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12847441986,
+              "name": "CHROMEBOOK BESTSELLER Samsung Chromebook 4 Celeron-N4020 4/32Gb GREY",
+              "url": "https://www.tokopedia.com/bursalaptopefek/chromebook-bestseller-samsung-chromebook-4-celeron-n4020-4-32gb-grey?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/12847441986?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/3/4/9cf8c752-3f16-49cc-a402-d87b2a8fdd5c.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/3/4/9cf8c752-3f16-49cc-a402-d87b2a8fdd5c.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp1.650.000",
+                "number": 1650000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 14424447,
+                "name": "Bursa laptop efek",
+                "url": "https://www.tokopedia.com/bursalaptopefek",
+                "city": "Jakarta Barat",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Barat",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 297,
+                "name": "Komputer & Laptop",
+                "breadcrumb": "komputer-laptop/laptop/laptop-2-in-1",
+                "gaKey": "/searchproduct/komputer-laptop/laptop/laptop-2-in-1/samsung/bursalaptopefek/chromebook-bestseller-samsung-chromebook-4-celeron-n4020-4-32gb-grey",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 14295752,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 1636627364,
+              "name": "Love Mei Powerful Shockproof Case Casing Cover Samsung S21",
+              "url": "https://www.tokopedia.com/areahp/love-mei-powerful-shockproof-case-casing-cover-samsung-s21?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/1636627364?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2021/3/1/795f1187-5d81-4d6a-9922-3d651f7fd22f.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2021/3/1/795f1187-5d81-4d6a-9922-3d651f7fd22f.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp365.000",
+                "number": 365000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 157877,
+                "name": "AreaHP77",
+                "url": "https://www.tokopedia.com/areahp",
+                "city": "Jakarta Pusat",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Pusat",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "2 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/handphone/android-os",
+                "gaKey": "/searchproduct/handphone-tablet/handphone/android-os/samsung/areahp/love-mei-powerful-shockproof-case-casing-cover-samsung-s21",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 2,
+                "parentID": 0,
+                "warehouseID": 140309,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 12052546300,
+              "name": "Tombol luar samsung J4 plus - J6 plus - Tombol on off volume j4+ j6+",
+              "url": "https://www.tokopedia.com/choirulfatah/tombol-luar-samsung-j4-plus-j6-plus-tombol-on-off-volume-j4-j6-biru-8457c?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/12052546300?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/10/28/58456c45-df90-4747-ab3a-836f64e0a5a0.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/10/28/58456c45-df90-4747-ab3a-836f64e0a5a0.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp12.000",
+                "number": 12000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 1312386,
+                "name": "FamilyAcc76",
+                "url": "https://www.tokopedia.com/choirulfatah",
+                "city": "Surabaya",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Surabaya",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "5 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-handphone/spare-part-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-handphone/spare-part-handphone/samsung/choirulfatah/tombol-luar-samsung-j4-plus-j6-plus-tombol-on-off-volume-j4-j6-biru-8457c",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "4.8",
+              "wishlist": false,
+              "meta": {
+                "countReview": 4,
+                "parentID": 11961801538,
+                "warehouseID": 608010,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16482574723,
+              "name": "SAMSUNG GALAXY TAB A8 4/128 LENGKAP SEIN",
+              "url": "https://www.tokopedia.com/jsphone-1/samsung-galaxy-tab-a8-4-128-lengkap-sein-1731044214919301043?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/16482574723?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2025/3/19/60358873-8e89-42da-81c3-0d03698a29f9.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2025/3/19/60358873-8e89-42da-81c3-0d03698a29f9.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp1.999.000",
+                "number": 1999000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 11638266,
+                "name": "SMILE PHONE JOGJA_NEW",
+                "url": "https://www.tokopedia.com/jsphone-1",
+                "city": "Yogyakarta",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Yogyakarta",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/tablet/android-os",
+                "gaKey": "/searchproduct/handphone-tablet/tablet/android-os/samsung/jsphone-1/samsung-galaxy-tab-a8-4-128-lengkap-sein-1731044214919301043",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 11606654,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16500916865,
+              "name": "Samsung z fold 5 mulus like new, edisi bosen aja ....no minus, banyak bonus",
+              "url": "https://www.tokopedia.com/anggunshop-2/samsung-z-fold-5-mulus-like-new-edisi-bosen-aja-no-minus-banyak-bonus-1731065537530201613?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/16500916865?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2025/3/24/a0db0f17-00a1-46d5-91dd-8b613f837975.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2025/3/24/a0db0f17-00a1-46d5-91dd-8b613f837975.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp13.500.000",
+                "number": 13500000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 1356144,
+                "name": "wahyudisigit264-shop",
+                "url": "https://www.tokopedia.com/anggunshop-2",
+                "city": "Jakarta Utara",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Jakarta Utara",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/handphone/android-os",
+                "gaKey": "/searchproduct/handphone-tablet/handphone/android-os/samsung/anggunshop-2/samsung-z-fold-5-mulus-like-new-edisi-bosen-aja-no-minus-banyak-bonus-1731065537530201613",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 3995598,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 1254907312,
+              "name": "Samsung A51 Silicone Rubber Color Button Oem Soft TPU Cover Case",
+              "url": "https://www.tokopedia.com/divaacc/samsung-a51-silicone-rubber-color-button-oem-soft-tpu-cover-case-merah?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/1254907312?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/product-1/2020/5/10/841362217/841362217_66a080ed-ecb4-49d2-8449-fdc20d369e65_1294_1294.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/product-1/2020/5/10/841362217/841362217_66a080ed-ecb4-49d2-8449-fdc20d369e65_1294_1294.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp37.500",
+                "number": 37500,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 310040,
+                "name": "diva idea case",
+                "url": "https://www.tokopedia.com/divaacc",
+                "city": "Bandung",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Bandung",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "30+ terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/soft-case-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/soft-case-handphone/samsung/divaacc/samsung-a51-silicone-rubber-color-button-oem-soft-tpu-cover-case-merah",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "4.9",
+              "wishlist": false,
+              "meta": {
+                "countReview": 15,
+                "parentID": 841362217,
+                "warehouseID": 316368,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 2814915933,
+              "name": "Lcd Samsung A6 2018 A600 / J6 2018 J600 Fullset Black",
+              "url": "https://www.tokopedia.com/r7olshop/lcd-samsung-a6-2018-a600-j6-2018-j600-fullset-black?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/2814915933?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/1/26/17ae219d-507b-46e9-962b-34f67fc281ba.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2022/1/26/17ae219d-507b-46e9-962b-34f67fc281ba.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp290.000",
+                "number": 290000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 6483769,
+                "name": "R7 Olshop",
+                "url": "https://www.tokopedia.com/r7olshop",
+                "city": "Medan",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Medan",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "2 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-handphone/lcd-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-handphone/lcd-handphone/samsung/r7olshop/lcd-samsung-a6-2018-a600-j6-2018-j600-fullset-black",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 2,
+                "parentID": 0,
+                "warehouseID": 6693131,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 15953138135,
+              "name": "Dijual batrei lcd touchscreen samsung a50 a505 Murah",
+              "url": "https://www.tokopedia.com/farzanedwinharti/dijual-batrei-lcd-touchscreen-samsung-a50-a505-murah?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/15953138135?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/hDjmkQ/2024/12/22/3bcbee3e-517a-469c-97b8-9f5337d984ff.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/hDjmkQ/2024/12/22/3bcbee3e-517a-469c-97b8-9f5337d984ff.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp253.800",
+                "number": 253800,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 9360895,
+                "name": "farzanedwinhartigan",
+                "url": "https://www.tokopedia.com/farzanedwinharti",
+                "city": "Denpasar",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Denpasar",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-tablet/lcd-tablet",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-tablet/lcd-tablet/samsung/farzanedwinharti/dijual-batrei-lcd-touchscreen-samsung-a50-a505-murah",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 9486346,
+                "isImageBlurred": false,
+                "isPortrait": true,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16634336133,
+              "name": "SAMSUNG GALAXY M53 5G 8/256GB RESMI",
+              "url": "https://www.tokopedia.com/queenshacelluler/samsung-galaxy-m53-5g-8-256gb-resmi-1731300860714779931?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/16634336133?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2025/4/29/098ad164-78d4-4406-a344-3f54cc5b640d.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2025/4/29/098ad164-78d4-4406-a344-3f54cc5b640d.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp2.499.000",
+                "number": 2499000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 10992420,
+                "name": "QueenshaCelluler",
+                "url": "https://www.tokopedia.com/queenshacelluler",
+                "city": "Kab. Cirebon",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Kab. Cirebon",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "1 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/handphone/android-os",
+                "gaKey": "/searchproduct/handphone-tablet/handphone/android-os/samsung/queenshacelluler/samsung-galaxy-m53-5g-8-256gb-resmi-1731300860714779931",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 11001211,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 2205133521,
+              "name": "Samsung Tab A7 Lite 2020 SM-T225 SM-T220 Sarung Rotary 360\" Flip Case",
+              "url": "https://www.tokopedia.com/acckilau/samsung-tab-a7-lite-2020-sm-t225-sm-t220-sarung-rotary-360-flip-case-biru?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/2205133521?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2022/6/4/e4515e1c-7744-4f32-a138-6a4331157442.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2022/6/4/e4515e1c-7744-4f32-a138-6a4331157442.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp85.000",
+                "number": 85000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 10322526,
+                "name": "Kilau Accs",
+                "url": "https://www.tokopedia.com/acckilau",
+                "city": "Bekasi",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Bekasi",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "100+ terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-tablet/casing-cover-tablet",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-tablet/casing-cover-tablet/samsung/acckilau/samsung-tab-a7-lite-2020-sm-t225-sm-t220-sarung-rotary-360-flip-case-biru",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "4.9",
+              "wishlist": false,
+              "meta": {
+                "countReview": 51,
+                "parentID": 2205133509,
+                "warehouseID": 10375660,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16243190042,
+              "name": "LCD TOUCHSCREEN SAMSUNG A30S + BEZZEL BLACK OLED",
+              "url": "https://www.tokopedia.com/novi-vina/lcd-touchscreen-samsung-a30s-bezzel-black-oled-1730861833290090175?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/16243190042?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/8/26/991d3bd0-db8d-48fc-866e-f599a4e5a5a9.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/8/26/991d3bd0-db8d-48fc-866e-f599a4e5a5a9.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp330.000",
+                "number": 330000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 3000940,
+                "name": "Anggita031",
+                "url": "https://www.tokopedia.com/novi-vina",
+                "city": "Surabaya",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Surabaya",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "7 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-tablet/spare-part-tablet",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-tablet/spare-part-tablet/samsung/novi-vina/lcd-touchscreen-samsung-a30s-bezzel-black-oled-1730861833290090175",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 4,
+                "parentID": 11365131433,
+                "warehouseID": 2407031,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16675773575,
+              "name": "preloved Samsung Galaxy Tab S7",
+              "url": "https://www.tokopedia.com/eunicia-shop/preloved-samsung-galaxy-tab-s7-1731464945101604029?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/16675773575?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2025/5/20/772fdab6-0e84-4359-aef4-045c0920ca90.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2025/5/20/772fdab6-0e84-4359-aef4-045c0920ca90.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp5.000.000",
+                "number": 5000000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 1792727,
+                "name": "Eunicia shop",
+                "url": "https://www.tokopedia.com/eunicia-shop",
+                "city": "Tangerang Selatan",
+                "tier": 1,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 2,
+                "title": "Tangerang Selatan",
+                "url": "",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/tablet/android-os",
+                "gaKey": "/searchproduct/handphone-tablet/tablet/android-os/samsung/eunicia-shop/preloved-samsung-galaxy-tab-s7-1731464945101604029",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 1427338,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 14656895300,
+              "name": "Tempered Glass Samsung A6 dan Samsung A6 Plus Full Cover Warna Hitam",
+              "url": "https://www.tokopedia.com/dehits/tempered-glass-samsung-a6-dan-samsung-a6-plus-full-cover-warna-hitam-sam-a6-9177d?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/14656895300?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/product-1/2019/10/21/60668389/60668389_376f0390-fb10-4ce0-abe8-5e9426cfabbb_1200_1200",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/product-1/2019/10/21/60668389/60668389_376f0390-fb10-4ce0-abe8-5e9426cfabbb_1200_1200",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp11.000",
+                "number": 11000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 5925656,
+                "name": "De Hits",
+                "url": "https://www.tokopedia.com/dehits",
+                "city": "Jakarta Timur",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Timur",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "24 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/screen-protector-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/screen-protector-handphone/samsung/dehits/tempered-glass-samsung-a6-dan-samsung-a6-plus-full-cover-warna-hitam-sam-a6-9177d",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 12,
+                "parentID": 592463303,
+                "warehouseID": 6197598,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 15681071469,
+              "name": "Samsung Galaxy S23 FE S23FE 5G Armor Smoke Magsafe Original Case Hard Casing Transparan Matte Back Cover HardCase Clear Bumper Soft Silicone",
+              "url": "https://www.tokopedia.com/t-original-store/samsung-galaxy-s23-fe-s23fe-5g-armor-smoke-magsafe-original-case-hard-casing-transparan-matte-back-cover-hardcase-clear-bumper-soft-silicone-htmdove-magsafe-samsung-s23-fe-6faef?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/15681071469?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/11/3/3b4ca3e3-d4a8-433c-b998-ff30fc07107d.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/11/3/3b4ca3e3-d4a8-433c-b998-ff30fc07107d.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp90.000",
+                "number": 90000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 5248807,
+                "name": "T-ORIGINAL STORE",
+                "url": "https://www.tokopedia.com/t-original-store",
+                "city": "Jakarta Pusat",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Pusat",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "26 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                },
+                {
+                  "position": "ri_product_offer",
+                  "title": "Bisa COD",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-handphone/soft-case-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-handphone/soft-case-handphone/samsung/t-original-store/samsung-galaxy-s23-fe-s23fe-5g-armor-smoke-magsafe-original-case-hard-casing-transparan-matte-back-cover-hardcase-clear-bumper-soft-silicone-htmdove-magsafe-samsung-s23-fe-6faef",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 6,
+                "parentID": 15681071466,
+                "warehouseID": 3730269,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 14845710022,
+              "name": "Handphone Samsung Galaxy A72 Ram 8/128GB (Cek Deskripsi Minus 30)",
+              "url": "https://www.tokopedia.com/swancell/handphone-samsung-galaxy-a72-ram-8-128gb-cek-deskripsi-minus-30?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/14845710022?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2024/8/18/7eb48de5-e2a0-400a-a21e-ee5b4fd410da.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2024/8/18/7eb48de5-e2a0-400a-a21e-ee5b4fd410da.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp1.200.000",
+                "number": 1200000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 14248146,
+                "name": "Swan Cell_NEW",
+                "url": "https://www.tokopedia.com/swancell",
+                "city": "Tangerang",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Tangerang",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/handphone/android-os",
+                "gaKey": "/searchproduct/handphone-tablet/handphone/android-os/samsung/swancell/handphone-samsung-galaxy-a72-ram-8-128gb-cek-deskripsi-minus-30",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 14124412,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 16538456578,
+              "name": "SAMSUNG Galaxy Tab S10 FE 10.9\" 2025 Screen Guard Protector Anti Gores Antigores Hydrogel Hydro Gel Tpu Anti shock Cover Film Pelindung Layar Tab Tablet Laptop",
+              "url": "https://www.tokopedia.com/sarungcasinghp/samsung-galaxy-tab-s10-fe-10-9-2025-screen-guard-protector-anti-gores-antigores-hydrogel-hydro-gel-tpu-anti-shock-cover-film-pelindung-layar-tab-tablet-laptop-1731123151855715955?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/16538456578?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2025/4/8/c0fca861-228f-40a7-9538-4c74a0418a64.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2025/4/8/c0fca861-228f-40a7-9538-4c74a0418a64.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp99.000",
+                "number": 99000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 647790,
+                "name": "sarungcasinghp",
+                "url": "https://www.tokopedia.com/sarungcasinghp",
+                "city": "Jakarta Pusat",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Jakarta Pusat",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "1 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/aksesoris-tablet/screen-guard-tablet",
+                "gaKey": "/searchproduct/handphone-tablet/aksesoris-tablet/screen-guard-tablet/samsung/sarungcasinghp/samsung-galaxy-tab-s10-fe-10-9-2025-screen-guard-protector-anti-gores-antigores-hydrogel-hydro-gel-tpu-anti-shock-cover-film-pelindung-layar-tab-tablet-laptop-1731123151855715955",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "",
+              "wishlist": false,
+              "meta": {
+                "countReview": 0,
+                "parentID": 0,
+                "warehouseID": 384467,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            },
+            {
+              "id": 8136485123,
+              "name": "Lcd Samsung A235 A23 Incell Lcd Fullset Samsung A23 A235 Incell",
+              "url": "https://www.tokopedia.com/1stsparepart/lcd-samsung-a235-a23-incell-lcd-fullset-samsung-a23-a235-incell?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "applink": "tokopedia://product/8136485123?extParam=ivf%3Dfalse%26keyword%3Dsamsung%26src%3Dsearch",
+              "mediaURL": {
+                "image": "https://images.tokopedia.net/img/cache/200-square/VqbcmM/2023/2/23/35bfc340-a946-42c6-a30f-623541b3a583.jpg",
+                "image300": "https://images.tokopedia.net/img/cache/300-square/VqbcmM/2023/2/23/35bfc340-a946-42c6-a30f-623541b3a583.jpg",
+                "__typename": "SearchProductV5MediaURL"
+              },
+              "price": {
+                "text": "Rp180.000",
+                "number": 180000,
+                "range": "",
+                "original": "",
+                "discountPercentage": 0,
+                "__typename": "SearchProductV5Price"
+              },
+              "shop": {
+                "id": 4959467,
+                "name": "Cssparepart",
+                "url": "https://www.tokopedia.com/1stsparepart",
+                "city": "Medan",
+                "tier": 3,
+                "__typename": "SearchProductV5Shop"
+              },
+              "badge": {
+                "id": 3,
+                "title": "Medan",
+                "url": "https://images.tokopedia.net/img/goldmerchant/pm_activation/badge/PM%20Pro%20Small.png",
+                "__typename": "SearchProductV5Badge"
+              },
+              "freeShipping": {
+                "url": "",
+                "__typename": "SearchProductV5FreeShipping"
+              },
+              "labelGroups": [
+                {
+                  "position": "ri_product_credibility",
+                  "title": "9 terjual",
+                  "type": "",
+                  "url": "",
+                  "__typename": "SearchProductV5LabelGroups"
+                }
+              ],
+              "category": {
+                "id": 65,
+                "name": "Handphone & Tablet",
+                "breadcrumb": "handphone-tablet/komponen-handphone/lcd-handphone",
+                "gaKey": "/searchproduct/handphone-tablet/komponen-handphone/lcd-handphone/samsung/1stsparepart/lcd-samsung-a235-a23-incell-lcd-fullset-samsung-a23-a235-incell",
+                "__typename": "SearchProductV5Category"
+              },
+              "rating": "5.0",
+              "wishlist": false,
+              "meta": {
+                "countReview": 4,
+                "parentID": 0,
+                "warehouseID": 215901,
+                "isImageBlurred": false,
+                "isPortrait": false,
+                "__typename": "SearchProductV5ProductMeta"
+              },
+              "__typename": "searchProductV5Product"
+            }
+          ],
+          "__typename": "SearchProductV5Data"
+        },
+        "__typename": "SearchProductV5Response"
+      }
+    }
+  }
+]
