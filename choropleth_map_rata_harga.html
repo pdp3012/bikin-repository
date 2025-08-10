@@ -1,0 +1,224 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choropleth Map - Distribusi Rata-rata Harga per Kota</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .map-container {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            background: linear-gradient(135deg, #e8f5e8 0%, #f0f8f0 100%);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .city-circle {
+            position: absolute;
+            border-radius: 50%;
+            border: 2px solid #333;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .city-circle:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+        }
+        .city-label {
+            position: absolute;
+            background: rgba(255,255,255,0.9);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 10px;
+            font-weight: bold;
+            pointer-events: none;
+            white-space: nowrap;
+        }
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: white;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.3);
+            font-size: 14px;
+            min-width: 250px;
+        }
+        .legend h4 {
+            margin: 0 0 10px 0;
+            color: #333;
+            text-align: center;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border: 1px solid #333;
+            margin-right: 10px;
+            border-radius: 3px;
+        }
+        .popup {
+            position: absolute;
+            background: white;
+            border: 2px solid #333;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            display: none;
+            z-index: 1000;
+            max-width: 200px;
+        }
+        .popup h4 {
+            margin: 0 0 8px 0;
+            color: #333;
+        }
+        .popup p {
+            margin: 3px 0;
+            font-size: 12px;
+        }
+        .title {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .info {
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">Distribusi Rata-rata Harga per Kota</div>
+        <div class="info">Visualisasi distribusi rata harga per kota di Indonesia</div>
+        
+        <div class="map-container" id="map">
+            <div class="legend">
+                <h4>Legend</h4>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: lightgreen;"></div>
+                    <span>Rendah (16,445)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: yellow;"></div>
+                    <span>Sedang</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: orange;"></div>
+                    <span>Tinggi</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: red;"></div>
+                    <span>Sangat Tinggi (43,266)</span>
+                </div>
+                <hr style="margin: 10px 0;">
+                <p style="margin: 5px 0; font-size: 12px; color: #666;">
+                    <b>Sumber data:</b> Tokopedia Digital Service
+                </p>
+                <p style="margin: 5px 0; font-size: 12px; color: #666;">
+                    <b>Metrik:</b> rata harga
+                </p>
+            </div>
+            
+            <div class="popup" id="popup"></div>
+        </div>
+    </div>
+
+    <script>
+        // Data kota
+        const cityData = [{"city": "Jakarta", "latitude": -6.2088, "longitude": 106.8456, "jumlah_kasus": 315, "jumlah_produk": 167, "rata_harga": 38446, "performance_score": 4.26}, {"city": "Surabaya", "latitude": -7.2575, "longitude": 112.7521, "jumlah_kasus": 654, "jumlah_produk": 59, "rata_harga": 40544, "performance_score": 4.21}, {"city": "Bandung", "latitude": -6.9175, "longitude": 107.6191, "jumlah_kasus": 378, "jumlah_produk": 53, "rata_harga": 33543, "performance_score": 4.44}, {"city": "Medan", "latitude": 3.5952, "longitude": 98.6722, "jumlah_kasus": 385, "jumlah_produk": 167, "rata_harga": 30770, "performance_score": 3.35}, {"city": "Semarang", "latitude": -6.9932, "longitude": 110.4203, "jumlah_kasus": 262, "jumlah_produk": 128, "rata_harga": 40589, "performance_score": 4.22}, {"city": "Yogyakarta", "latitude": -7.7971, "longitude": 110.3708, "jumlah_kasus": 505, "jumlah_produk": 147, "rata_harga": 16445, "performance_score": 3.07}, {"city": "Palembang", "latitude": -2.9761, "longitude": 104.7754, "jumlah_kasus": 585, "jumlah_produk": 154, "rata_harga": 30495, "performance_score": 4.52}, {"city": "Makassar", "latitude": -5.1477, "longitude": 119.4327, "jumlah_kasus": 685, "jumlah_produk": 141, "rata_harga": 43266, "performance_score": 3.08}, {"city": "Denpasar", "latitude": -8.65, "longitude": 115.2167, "jumlah_kasus": 216, "jumlah_produk": 98, "rata_harga": 27474, "performance_score": 4.99}, {"city": "Manado", "latitude": 1.4748, "longitude": 124.8421, "jumlah_kasus": 621, "jumlah_produk": 129, "rata_harga": 25456, "performance_score": 3.39}];
+        const minValue = 16445;
+        const maxValue = 43266;
+        
+        // Fungsi untuk mendapatkan warna berdasarkan nilai
+        function getColor(value) {
+            const normalized = (value - minValue) / (maxValue - minValue);
+            if (normalized < 0.25) return 'lightgreen';
+            if (normalized < 0.5) return 'yellow';
+            if (normalized < 0.75) return 'orange';
+            return 'red';
+        }
+        
+        // Fungsi untuk mendapatkan radius berdasarkan nilai
+        function getRadius(value) {
+            const normalized = (value - minValue) / (maxValue - minValue);
+            return 15 + (normalized * 25); // Radius antara 15-40px
+        }
+        
+        // Render kota-kota
+        cityData.forEach(city => {
+            const circle = document.createElement('div');
+            circle.className = 'city-circle';
+            circle.style.left = ((city.longitude + 110) * 3 + 50) + '%';
+            circle.style.top = ((city.latitude + 10) * 3 + 50) + '%';
+            circle.style.width = getRadius(city.rata_harga) + 'px';
+            circle.style.height = getRadius(city.rata_harga) + 'px';
+            circle.style.backgroundColor = getColor(city.rata_harga);
+            
+            // Label kota
+            const label = document.createElement('div');
+            label.className = 'city-label';
+            label.textContent = city.city;
+            label.style.left = ((city.longitude + 110) * 3 + 50) + '%';
+            label.style.top = ((city.latitude + 10) * 3 + 50 - 25) + '%';
+            
+            // Popup content
+            const popupContent = `
+                <h4>${city.city}</h4>
+                <p><b>Jumlah Kasus:</b> ${city.jumlah_kasus.toLocaleString()}</p>
+                <p><b>Jumlah Produk:</b> ${city.jumlah_produk}</p>
+                <p><b>Rata Harga:</b> Rp${city.rata_harga.toLocaleString()}</p>
+                <p><b>Performance:</b> ${city.performance_score}</p>
+            `;
+            
+            // Event listeners
+            circle.addEventListener('mouseenter', (e) => {
+                const popup = document.getElementById('popup');
+                popup.innerHTML = popupContent;
+                popup.style.display = 'block';
+                popup.style.left = e.pageX + 10 + 'px';
+                popup.style.top = e.pageY - 10 + 'px';
+            });
+            
+            circle.addEventListener('mouseleave', () => {
+                document.getElementById('popup').style.display = 'none';
+            });
+            
+            document.getElementById('map').appendChild(circle);
+            document.getElementById('map').appendChild(label);
+        });
+        
+        // Hide popup when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!e.target.classList.contains('city-circle')) {
+                document.getElementById('popup').style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
