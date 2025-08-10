@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aaaaf1e0267a074a81d38d8de0409e58 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed;
+                top: 50px; right: 50px; width: 150px; height: 200px;
+                background-color: white; border:2px solid grey; z-index:9999;
+                font-size:12px; padding: 10px">
+                <p><b>Jumlah Kasus:</b></p>
+                <p><i class="fa fa-circle" style="color:red"></i> 24,157+</p>
+                <p><i class="fa fa-circle" style="color:orange"></i> 18,118-24,157</p>
+                <p><i class="fa fa-circle" style="color:yellow"></i> 12,078-18,118</p>
+                <p><i class="fa fa-circle" style="color:lightgreen"></i> 6,039-12,078</p>
+                <p><i class="fa fa-circle" style="color:green"></i> <6,039</p>
+    </div>
+    
+    
+            <div class="folium-map" id="map_aaaaf1e0267a074a81d38d8de0409e58" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_aaaaf1e0267a074a81d38d8de0409e58 = L.map(
+                "map_aaaaf1e0267a074a81d38d8de0409e58",
+                {
+                    center: [-4.1953, 109.23282999999999],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2d8bb74a3ab64b0c1d67189b1ffe43e2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2d8bb74a3ab64b0c1d67189b1ffe43e2.addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+            var circle_marker_2e613fb08f079ba13ca389be767ec79c = L.circleMarker(
+                [-6.9175, 107.6191],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.793353032209467, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_8192747904a049db456eb8cd3f82d73d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_35ef3f67af6a698fdf8e9fee99454b35 = $(`<div id="html_35ef3f67af6a698fdf8e9fee99454b35" style="width: 100.0%; height: 100.0%;">         <b>Bandung</b><br>         <b>Total Terjual:</b> 24,943<br>         <b>Rata-rata Harga:</b> Rp22,993<br>         <b>Rata-rata Rating:</b> 4.23<br>         <b>Rata-rata Performance:</b> 2.20<br>         <b>Jumlah Produk:</b> 50         </div>`)[0];
+                popup_8192747904a049db456eb8cd3f82d73d.setContent(html_35ef3f67af6a698fdf8e9fee99454b35);
+            
+        
+
+        circle_marker_2e613fb08f079ba13ca389be767ec79c.bindPopup(popup_8192747904a049db456eb8cd3f82d73d)
+        ;
+
+        
+    
+    
+            var circle_marker_b9ad2ede880b50daadbb66f8f4e68154 = L.circleMarker(
+                [-3.3167, 114.59],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.95900999435742, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_20d3f9ebf61bca6c008b874cdcba6699 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_433dc5c77f95c0588a37388d9e8c23e7 = $(`<div id="html_433dc5c77f95c0588a37388d9e8c23e7" style="width: 100.0%; height: 100.0%;">         <b>Banjarmasin</b><br>         <b>Total Terjual:</b> 25,469<br>         <b>Rata-rata Harga:</b> Rp23,607<br>         <b>Rata-rata Rating:</b> 4.31<br>         <b>Rata-rata Performance:</b> 2.23<br>         <b>Jumlah Produk:</b> 51         </div>`)[0];
+                popup_20d3f9ebf61bca6c008b874cdcba6699.setContent(html_433dc5c77f95c0588a37388d9e8c23e7);
+            
+        
+
+        circle_marker_b9ad2ede880b50daadbb66f8f4e68154.bindPopup(popup_20d3f9ebf61bca6c008b874cdcba6699)
+        ;
+
+        
+    
+    
+            var circle_marker_64eaabc6c528deca305f44bf57bc9a7e = L.circleMarker(
+                [1.0456, 104.0611],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.726410906497389, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_416d252154cd405c8924f9e638101a93 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bf95206d424f4ee257450ff665aca9df = $(`<div id="html_bf95206d424f4ee257450ff665aca9df" style="width: 100.0%; height: 100.0%;">         <b>Batam</b><br>         <b>Total Terjual:</b> 24,732<br>         <b>Rata-rata Harga:</b> Rp25,714<br>         <b>Rata-rata Rating:</b> 4.25<br>         <b>Rata-rata Performance:</b> 2.21<br>         <b>Jumlah Produk:</b> 49         </div>`)[0];
+                popup_416d252154cd405c8924f9e638101a93.setContent(html_bf95206d424f4ee257450ff665aca9df);
+            
+        
+
+        circle_marker_64eaabc6c528deca305f44bf57bc9a7e.bindPopup(popup_416d252154cd405c8924f9e638101a93)
+        ;
+
+        
+    
+    
+            var circle_marker_511d39bd350bbe1fbe7ef7ecd9773913 = L.circleMarker(
+                [-6.23, 106.99],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.140013210033867, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_f4943aaf51aa60f00c51a032ce41daeb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_0317d5c7afa66e333a58038ed2e5f550 = $(`<div id="html_0317d5c7afa66e333a58038ed2e5f550" style="width: 100.0%; height: 100.0%;">         <b>Bekasi</b><br>         <b>Total Terjual:</b> 22,922<br>         <b>Rata-rata Harga:</b> Rp22,960<br>         <b>Rata-rata Rating:</b> 4.17<br>         <b>Rata-rata Performance:</b> 2.17<br>         <b>Jumlah Produk:</b> 46         </div>`)[0];
+                popup_f4943aaf51aa60f00c51a032ce41daeb.setContent(html_0317d5c7afa66e333a58038ed2e5f550);
+            
+        
+
+        circle_marker_511d39bd350bbe1fbe7ef7ecd9773913.bindPopup(popup_f4943aaf51aa60f00c51a032ce41daeb)
+        ;
+
+        
+    
+    
+            var circle_marker_625615adcd2ff6ce20213611f89d8e55 = L.circleMarker(
+                [-8.65, 115.2167],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.805378831271335, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_ce8602818ca2ac2e26b87e44a6d4dcce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f14301685955a6d0894db54a144e71c7 = $(`<div id="html_f14301685955a6d0894db54a144e71c7" style="width: 100.0%; height: 100.0%;">         <b>Denpasar</b><br>         <b>Total Terjual:</b> 24,981<br>         <b>Rata-rata Harga:</b> Rp24,808<br>         <b>Rata-rata Rating:</b> 4.28<br>         <b>Rata-rata Performance:</b> 2.22<br>         <b>Jumlah Produk:</b> 50         </div>`)[0];
+                popup_ce8602818ca2ac2e26b87e44a6d4dcce.setContent(html_f14301685955a6d0894db54a144e71c7);
+            
+        
+
+        circle_marker_625615adcd2ff6ce20213611f89d8e55.bindPopup(popup_ce8602818ca2ac2e26b87e44a6d4dcce)
+        ;
+
+        
+    
+    
+            var circle_marker_262ae6f5113c3bffa0f183ccdf8d532c = L.circleMarker(
+                [-6.39, 106.81],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.22673539502299, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_3eb53050d0d86ec939e4d86f77ae1700 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d6258290ae7f08630bcd3c74338f5ed4 = $(`<div id="html_d6258290ae7f08630bcd3c74338f5ed4" style="width: 100.0%; height: 100.0%;">         <b>Depok</b><br>         <b>Total Terjual:</b> 20,240<br>         <b>Rata-rata Harga:</b> Rp23,010<br>         <b>Rata-rata Rating:</b> 4.09<br>         <b>Rata-rata Performance:</b> 2.13<br>         <b>Jumlah Produk:</b> 41         </div>`)[0];
+                popup_3eb53050d0d86ec939e4d86f77ae1700.setContent(html_d6258290ae7f08630bcd3c74338f5ed4);
+            
+        
+
+        circle_marker_262ae6f5113c3bffa0f183ccdf8d532c.bindPopup(popup_3eb53050d0d86ec939e4d86f77ae1700)
+        ;
+
+        
+    
+    
+            var circle_marker_f3603019ddcf35ce48642fe03bb81e45 = L.circleMarker(
+                [-6.2088, 106.8456],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.17333186877556, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_5d08b2cbc6b73534fb658bbc2312878b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_329db3f7f6cdd88458cad63f320ce527 = $(`<div id="html_329db3f7f6cdd88458cad63f320ce527" style="width: 100.0%; height: 100.0%;">         <b>Jakarta</b><br>         <b>Total Terjual:</b> 23,023<br>         <b>Rata-rata Harga:</b> Rp27,239<br>         <b>Rata-rata Rating:</b> 4.17<br>         <b>Rata-rata Performance:</b> 2.18<br>         <b>Jumlah Produk:</b> 46         </div>`)[0];
+                popup_5d08b2cbc6b73534fb658bbc2312878b.setContent(html_329db3f7f6cdd88458cad63f320ce527);
+            
+        
+
+        circle_marker_f3603019ddcf35ce48642fe03bb81e45.bindPopup(popup_5d08b2cbc6b73534fb658bbc2312878b)
+        ;
+
+        
+    
+    
+            var circle_marker_7d17eeb617a379a90f4701975f9ab4ab = L.circleMarker(
+                [-5.1477, 119.4327],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.816763259276533, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_467bfbb8cb6bd74e943a23d6feac8671 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cc451d4ad12ccd5213d5550dadb64cbc = $(`<div id="html_cc451d4ad12ccd5213d5550dadb64cbc" style="width: 100.0%; height: 100.0%;">         <b>Makassar</b><br>         <b>Total Terjual:</b> 25,017<br>         <b>Rata-rata Harga:</b> Rp23,111<br>         <b>Rata-rata Rating:</b> 4.35<br>         <b>Rata-rata Performance:</b> 2.25<br>         <b>Jumlah Produk:</b> 50         </div>`)[0];
+                popup_467bfbb8cb6bd74e943a23d6feac8671.setContent(html_cc451d4ad12ccd5213d5550dadb64cbc);
+            
+        
+
+        circle_marker_7d17eeb617a379a90f4701975f9ab4ab.bindPopup(popup_467bfbb8cb6bd74e943a23d6feac8671)
+        ;
+
+        
+    
+    
+            var circle_marker_29be752f3565743d112c450dd8b9b8bd = L.circleMarker(
+                [-7.9797, 112.6304],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.354774427147769, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_19d739a57dc3e7ddfc611e4ea210adde = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dda6f103394065601eb6ffefa0c4f0f4 = $(`<div id="html_dda6f103394065601eb6ffefa0c4f0f4" style="width: 100.0%; height: 100.0%;">         <b>Malang</b><br>         <b>Total Terjual:</b> 17,835<br>         <b>Rata-rata Harga:</b> Rp25,900<br>         <b>Rata-rata Rating:</b> 4.17<br>         <b>Rata-rata Performance:</b> 2.17<br>         <b>Jumlah Produk:</b> 36         </div>`)[0];
+                popup_19d739a57dc3e7ddfc611e4ea210adde.setContent(html_dda6f103394065601eb6ffefa0c4f0f4);
+            
+        
+
+        circle_marker_29be752f3565743d112c450dd8b9b8bd.bindPopup(popup_19d739a57dc3e7ddfc611e4ea210adde)
+        ;
+
+        
+    
+    
+            var circle_marker_48910c3ae8d62fbb70b40be71d7d5467 = L.circleMarker(
+                [1.4748, 124.8421],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.778783223049867, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_c995b1c6a428d2639e23f7261f8e6b2c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_55b45e9474332f85a941255c9f4a6405 = $(`<div id="html_55b45e9474332f85a941255c9f4a6405" style="width: 100.0%; height: 100.0%;">         <b>Manado</b><br>         <b>Total Terjual:</b> 24,897<br>         <b>Rata-rata Harga:</b> Rp26,873<br>         <b>Rata-rata Rating:</b> 4.21<br>         <b>Rata-rata Performance:</b> 2.19<br>         <b>Jumlah Produk:</b> 50         </div>`)[0];
+                popup_c995b1c6a428d2639e23f7261f8e6b2c.setContent(html_55b45e9474332f85a941255c9f4a6405);
+            
+        
+
+        circle_marker_48910c3ae8d62fbb70b40be71d7d5467.bindPopup(popup_c995b1c6a428d2639e23f7261f8e6b2c)
+        ;
+
+        
+    
+    
+            var circle_marker_f77cf8ef22e63a0784f5b749c9ee5e37 = L.circleMarker(
+                [3.5952, 98.6722],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.411683879446787, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_dabb3eebc55d6c0818237a935e75f3a7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2b3557b3c0bda7a2adf85c4273287eb0 = $(`<div id="html_2b3557b3c0bda7a2adf85c4273287eb0" style="width: 100.0%; height: 100.0%;">         <b>Medan</b><br>         <b>Total Terjual:</b> 23,752<br>         <b>Rata-rata Harga:</b> Rp27,592<br>         <b>Rata-rata Rating:</b> 4.29<br>         <b>Rata-rata Performance:</b> 2.23<br>         <b>Jumlah Produk:</b> 47         </div>`)[0];
+                popup_dabb3eebc55d6c0818237a935e75f3a7.setContent(html_2b3557b3c0bda7a2adf85c4273287eb0);
+            
+        
+
+        circle_marker_f77cf8ef22e63a0784f5b749c9ee5e37.bindPopup(popup_dabb3eebc55d6c0818237a935e75f3a7)
+        ;
+
+        
+    
+    
+            var circle_marker_a9831e3a6a25fbbbfb197d9dfd5ce2f5 = L.circleMarker(
+                [-0.9471, 100.4178],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.92660627532879, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_aa2e5b767055cff26433fbee505cc9ad = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f67a6788ea0c31d952b8181f4c22691f = $(`<div id="html_f67a6788ea0c31d952b8181f4c22691f" style="width: 100.0%; height: 100.0%;">         <b>Padang</b><br>         <b>Total Terjual:</b> 28,651<br>         <b>Rata-rata Harga:</b> Rp28,471<br>         <b>Rata-rata Rating:</b> 4.24<br>         <b>Rata-rata Performance:</b> 2.21<br>         <b>Jumlah Produk:</b> 57         </div>`)[0];
+                popup_aa2e5b767055cff26433fbee505cc9ad.setContent(html_f67a6788ea0c31d952b8181f4c22691f);
+            
+        
+
+        circle_marker_a9831e3a6a25fbbbfb197d9dfd5ce2f5.bindPopup(popup_aa2e5b767055cff26433fbee505cc9ad)
+        ;
+
+        
+    
+    
+            var circle_marker_9b99d377955ec4721b50d1223236d3e3 = L.circleMarker(
+                [-2.9761, 104.7754],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.822136391777187, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_5e0519a00a9c4c0cc93c43d9331de06d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_351574a3aa14929f8f0bfb0444037091 = $(`<div id="html_351574a3aa14929f8f0bfb0444037091" style="width: 100.0%; height: 100.0%;">         <b>Palembang</b><br>         <b>Total Terjual:</b> 25,034<br>         <b>Rata-rata Harga:</b> Rp23,469<br>         <b>Rata-rata Rating:</b> 4.25<br>         <b>Rata-rata Performance:</b> 2.21<br>         <b>Jumlah Produk:</b> 50         </div>`)[0];
+                popup_5e0519a00a9c4c0cc93c43d9331de06d.setContent(html_351574a3aa14929f8f0bfb0444037091);
+            
+        
+
+        circle_marker_9b99d377955ec4721b50d1223236d3e3.bindPopup(popup_5e0519a00a9c4c0cc93c43d9331de06d)
+        ;
+
+        
+    
+    
+            var circle_marker_1edadf462bcd76c85606bc8041f88400 = L.circleMarker(
+                [0.5333, 101.45],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.142053552593985, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_79f1c24b961e4901fec1c1f83db73c51 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2c8abd4ae19a77b96bd66c36bf13bf47 = $(`<div id="html_2c8abd4ae19a77b96bd66c36bf13bf47" style="width: 100.0%; height: 100.0%;">         <b>Pekanbaru</b><br>         <b>Total Terjual:</b> 29,385<br>         <b>Rata-rata Harga:</b> Rp25,181<br>         <b>Rata-rata Rating:</b> 4.20<br>         <b>Rata-rata Performance:</b> 2.19<br>         <b>Jumlah Produk:</b> 59         </div>`)[0];
+                popup_79f1c24b961e4901fec1c1f83db73c51.setContent(html_2c8abd4ae19a77b96bd66c36bf13bf47);
+            
+        
+
+        circle_marker_1edadf462bcd76c85606bc8041f88400.bindPopup(popup_79f1c24b961e4901fec1c1f83db73c51)
+        ;
+
+        
+    
+    
+            var circle_marker_793edb288ccccfd253dcf94731abf928 = L.circleMarker(
+                [-0.0235, 109.3303],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.02747640771934, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_56a2e98b3c561e4a1d3a6d273e8aefba = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f52d2968f91e257bb177f8564b63cc2e = $(`<div id="html_f52d2968f91e257bb177f8564b63cc2e" style="width: 100.0%; height: 100.0%;">         <b>Pontianak</b><br>         <b>Total Terjual:</b> 25,688<br>         <b>Rata-rata Harga:</b> Rp24,728<br>         <b>Rata-rata Rating:</b> 4.23<br>         <b>Rata-rata Performance:</b> 2.20<br>         <b>Jumlah Produk:</b> 51         </div>`)[0];
+                popup_56a2e98b3c561e4a1d3a6d273e8aefba.setContent(html_f52d2968f91e257bb177f8564b63cc2e);
+            
+        
+
+        circle_marker_793edb288ccccfd253dcf94731abf928.bindPopup(popup_56a2e98b3c561e4a1d3a6d273e8aefba)
+        ;
+
+        
+    
+    
+            var circle_marker_6e617271034148cfe6c97e4380e20f44 = L.circleMarker(
+                [-6.9932, 110.4203],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.756903249052462, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_3f6dff60f0b088e33ec67f29d1c8c49d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b1762cf1e93cbf79b7603b5592a5f40e = $(`<div id="html_b1762cf1e93cbf79b7603b5592a5f40e" style="width: 100.0%; height: 100.0%;">         <b>Semarang</b><br>         <b>Total Terjual:</b> 24,828<br>         <b>Rata-rata Harga:</b> Rp26,542<br>         <b>Rata-rata Rating:</b> 4.23<br>         <b>Rata-rata Performance:</b> 2.20<br>         <b>Jumlah Produk:</b> 50         </div>`)[0];
+                popup_3f6dff60f0b088e33ec67f29d1c8c49d.setContent(html_b1762cf1e93cbf79b7603b5592a5f40e);
+            
+        
+
+        circle_marker_6e617271034148cfe6c97e4380e20f44.bindPopup(popup_3f6dff60f0b088e33ec67f29d1c8c49d)
+        ;
+
+        
+    
+    
+            var circle_marker_a9d2fe26a7d4c5b7e123a4a178cf0008 = L.circleMarker(
+                [-7.55, 110.8],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.37728402253931, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_9c766157c4fadb8563da3aa72ceb3023 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8c2ddec3c1e8dcc584793eb2b874fc96 = $(`<div id="html_8c2ddec3c1e8dcc584793eb2b874fc96" style="width: 100.0%; height: 100.0%;">         <b>Solo</b><br>         <b>Total Terjual:</b> 30,197<br>         <b>Rata-rata Harga:</b> Rp27,122<br>         <b>Rata-rata Rating:</b> 4.12<br>         <b>Rata-rata Performance:</b> 2.16<br>         <b>Jumlah Produk:</b> 60         </div>`)[0];
+                popup_9c766157c4fadb8563da3aa72ceb3023.setContent(html_8c2ddec3c1e8dcc584793eb2b874fc96);
+            
+        
+
+        circle_marker_a9d2fe26a7d4c5b7e123a4a178cf0008.bindPopup(popup_9c766157c4fadb8563da3aa72ceb3023)
+        ;
+
+        
+    
+    
+            var circle_marker_8093742032e4eca32f85ef0065bd20c8 = L.circleMarker(
+                [-7.2575, 112.7521],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.922174801130026, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_58654f4db4710954d1cc34a34a088ce7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8c8bc75be532c98941629f4feeedcf10 = $(`<div id="html_8c8bc75be532c98941629f4feeedcf10" style="width: 100.0%; height: 100.0%;">         <b>Surabaya</b><br>         <b>Total Terjual:</b> 28,636<br>         <b>Rata-rata Harga:</b> Rp26,193<br>         <b>Rata-rata Rating:</b> 4.28<br>         <b>Rata-rata Performance:</b> 2.22<br>         <b>Jumlah Produk:</b> 57         </div>`)[0];
+                popup_58654f4db4710954d1cc34a34a088ce7.setContent(html_8c8bc75be532c98941629f4feeedcf10);
+            
+        
+
+        circle_marker_8093742032e4eca32f85ef0065bd20c8.bindPopup(popup_58654f4db4710954d1cc34a34a088ce7)
+        ;
+
+        
+    
+    
+            var circle_marker_6710481cc12bacfb9830493afb23364a = L.circleMarker(
+                [-6.17, 106.63],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.746940019000483, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_6b9206559709d370098c861adaafb484 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9340ae450440a05a6b7b5f7632270121 = $(`<div id="html_9340ae450440a05a6b7b5f7632270121" style="width: 100.0%; height: 100.0%;">         <b>Tangerang</b><br>         <b>Total Terjual:</b> 28,046<br>         <b>Rata-rata Harga:</b> Rp25,210<br>         <b>Rata-rata Rating:</b> 4.26<br>         <b>Rata-rata Performance:</b> 2.21<br>         <b>Jumlah Produk:</b> 56         </div>`)[0];
+                popup_6b9206559709d370098c861adaafb484.setContent(html_9340ae450440a05a6b7b5f7632270121);
+            
+        
+
+        circle_marker_6710481cc12bacfb9830493afb23364a.bindPopup(popup_6b9206559709d370098c861adaafb484)
+        ;
+
+        
+    
+    
+            var circle_marker_da22eced1a459a9ffbd558518129f2ce = L.circleMarker(
+                [-7.7971, 110.3708],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.846885195218558, "stroke": true, "weight": 2}
+            ).addTo(map_aaaaf1e0267a074a81d38d8de0409e58);
+        
+    
+        var popup_4b6e9207655559c6433fb42a2a4e07d1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_18e969e2515d1d392dc6c6e124d85b2c = $(`<div id="html_18e969e2515d1d392dc6c6e124d85b2c" style="width: 100.0%; height: 100.0%;">         <b>Yogyakarta</b><br>         <b>Total Terjual:</b> 22,043<br>         <b>Rata-rata Harga:</b> Rp23,957<br>         <b>Rata-rata Rating:</b> 4.28<br>         <b>Rata-rata Performance:</b> 2.22<br>         <b>Jumlah Produk:</b> 44         </div>`)[0];
+                popup_4b6e9207655559c6433fb42a2a4e07d1.setContent(html_18e969e2515d1d392dc6c6e124d85b2c);
+            
+        
+
+        circle_marker_da22eced1a459a9ffbd558518129f2ce.bindPopup(popup_4b6e9207655559c6433fb42a2a4e07d1)
+        ;
+
+        
+    
+</script>
+</html>
