@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4c3bb8f17e80556eec7bc40d71da46f3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed;
+                top: 50px; right: 50px; width: 200px; height: 200px;
+                background-color: white; border:2px solid grey; z-index:9999;
+                font-size:14px; padding: 15px; border-radius: 10px;">
+        <h4 style="margin-top: 0; color: #333;">Peta Hotspot sold</h4>
+        <p style="margin: 5px 0;"><span style="color: red; font-weight: bold;">🔴 Hotspot (Tinggi)</span></p>
+        <p style="margin: 5px 0; font-size: 12px;">Nilai di atas 781</p>
+        <p style="margin: 5px 0;"><span style="color: orange; font-weight: bold;">🟡 Normal</span></p>
+        <p style="margin: 5px 0; font-size: 12px;">Nilai sekitar rata-rata</p>
+        <p style="margin: 5px 0;"><span style="color: blue; font-weight: bold;">🔵 Coldspot (Rendah)</span></p>
+        <p style="margin: 5px 0; font-size: 12px;">Nilai di bawah 263</p>
+        <hr style="margin: 10px 0;">
+        <p style="font-size: 11px; color: #666;">
+            Ukuran lingkaran = Besarnya nilai
+        </p>
+    </div>
+    
+    
+            <div class="folium-map" id="map_4c3bb8f17e80556eec7bc40d71da46f3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4c3bb8f17e80556eec7bc40d71da46f3 = L.map(
+                "map_4c3bb8f17e80556eec7bc40d71da46f3",
+                {
+                    center: [-5.755960000000001, 109.198552],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7ba2e099cd18ac43f26308b24eac02d5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7ba2e099cd18ac43f26308b24eac02d5.addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+            var circle_marker_b50fa946fbd3e157b00a2dbfcadbc00f = L.circleMarker(
+                [-6.2088, 106.8456],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.82258064516129, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_f024a68d35dcb8962479ef36f5a8d31c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_aa00d6c9a1a4cbb22bb5fbb98258a755 = $(`<div id="html_aa00d6c9a1a4cbb22bb5fbb98258a755" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Jakarta</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 584</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_f024a68d35dcb8962479ef36f5a8d31c.setContent(html_aa00d6c9a1a4cbb22bb5fbb98258a755);
+            
+        
+
+        circle_marker_b50fa946fbd3e157b00a2dbfcadbc00f.bindPopup(popup_f024a68d35dcb8962479ef36f5a8d31c)
+        ;
+
+        
+    
+    
+            var circle_marker_a6af161c209dcfb0ee6d1acab61ae880 = L.circleMarker(
+                [-7.2575, 112.7521],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.483870967741936, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_3ccfed40bba6ba7c681d1061c715578b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d526d00aa498cf7a2ad87e7b0ef9c7be = $(`<div id="html_d526d00aa498cf7a2ad87e7b0ef9c7be" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: red; margin-bottom: 10px;">Surabaya</h4>             <p><strong>Status:</strong> Hotspot (Tinggi)</p>             <p><strong>sold:</strong> 873</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_3ccfed40bba6ba7c681d1061c715578b.setContent(html_d526d00aa498cf7a2ad87e7b0ef9c7be);
+            
+        
+
+        circle_marker_a6af161c209dcfb0ee6d1acab61ae880.bindPopup(popup_3ccfed40bba6ba7c681d1061c715578b)
+        ;
+
+        
+    
+    
+            var circle_marker_49f5435fc1e173275ab5f7ad76688e7b = L.circleMarker(
+                [-6.9175, 107.6191],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.532258064516128, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_edf1129e7a11986b1c79ff11a7ffbb78 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9e04d5b44fd87804587cd29c37ed0744 = $(`<div id="html_9e04d5b44fd87804587cd29c37ed0744" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Bandung</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 752</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_edf1129e7a11986b1c79ff11a7ffbb78.setContent(html_9e04d5b44fd87804587cd29c37ed0744);
+            
+        
+
+        circle_marker_49f5435fc1e173275ab5f7ad76688e7b.bindPopup(popup_edf1129e7a11986b1c79ff11a7ffbb78)
+        ;
+
+        
+    
+    
+            var circle_marker_5190a55d9aee2b49321f6be546205750 = L.circleMarker(
+                [3.5952, 98.6722],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.435483870967742, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_9e7a2834c973653d31fbb6ed0e595602 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ff1fb15b23ef6cefe83a13acd5a8f3c9 = $(`<div id="html_ff1fb15b23ef6cefe83a13acd5a8f3c9" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: blue; margin-bottom: 10px;">Medan</h4>             <p><strong>Status:</strong> Coldspot (Rendah)</p>             <p><strong>sold:</strong> 250</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_9e7a2834c973653d31fbb6ed0e595602.setContent(html_ff1fb15b23ef6cefe83a13acd5a8f3c9);
+            
+        
+
+        circle_marker_5190a55d9aee2b49321f6be546205750.bindPopup(popup_9e7a2834c973653d31fbb6ed0e595602)
+        ;
+
+        
+    
+    
+            var circle_marker_b4c7ec34f73045c3638529dff53e3bd6 = L.circleMarker(
+                [-6.9932, 110.4203],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.64516129032258, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_2c6031d2e0216f5c9ef4edc14ef86179 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_43b822d79edacdc051b295a3969c7f7b = $(`<div id="html_43b822d79edacdc051b295a3969c7f7b" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Semarang</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 573</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_2c6031d2e0216f5c9ef4edc14ef86179.setContent(html_43b822d79edacdc051b295a3969c7f7b);
+            
+        
+
+        circle_marker_b4c7ec34f73045c3638529dff53e3bd6.bindPopup(popup_2c6031d2e0216f5c9ef4edc14ef86179)
+        ;
+
+        
+    
+    
+            var circle_marker_3de77d20ff84c89e0b2c2b64a9954a6a = L.circleMarker(
+                [-7.7971, 110.3708],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.096774193548387, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_10176e71fdee5206c94406211e9f3559 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_95084aa00b9478ee4e92d83b3f47f544 = $(`<div id="html_95084aa00b9478ee4e92d83b3f47f544" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: blue; margin-bottom: 10px;">Yogyakarta</h4>             <p><strong>Status:</strong> Coldspot (Rendah)</p>             <p><strong>sold:</strong> 105</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_10176e71fdee5206c94406211e9f3559.setContent(html_95084aa00b9478ee4e92d83b3f47f544);
+            
+        
+
+        circle_marker_3de77d20ff84c89e0b2c2b64a9954a6a.bindPopup(popup_10176e71fdee5206c94406211e9f3559)
+        ;
+
+        
+    
+    
+            var circle_marker_ea0c870319f2fc92ee5ac68db558bc9b = L.circleMarker(
+                [-2.9761, 104.7754],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.064516129032256, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_863eee4dccdbe95563c0dfd5bdd8c88b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_005b74e72b993ff01c17077ddd2e1d6b = $(`<div id="html_005b74e72b993ff01c17077ddd2e1d6b" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: red; margin-bottom: 10px;">Palembang</h4>             <p><strong>Status:</strong> Hotspot (Tinggi)</p>             <p><strong>sold:</strong> 909</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_863eee4dccdbe95563c0dfd5bdd8c88b.setContent(html_005b74e72b993ff01c17077ddd2e1d6b);
+            
+        
+
+        circle_marker_ea0c870319f2fc92ee5ac68db558bc9b.bindPopup(popup_863eee4dccdbe95563c0dfd5bdd8c88b)
+        ;
+
+        
+    
+    
+            var circle_marker_0fe9b21dfd10d2a1aa31f4fcd38176fc = L.circleMarker(
+                [-5.1477, 119.4327],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.387096774193548, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_b38c7b6fc9a4902d232f961b761fb77c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_20af36ed135cae1560ab7e400775bac9 = $(`<div id="html_20af36ed135cae1560ab7e400775bac9" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Makassar</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 743</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_b38c7b6fc9a4902d232f961b761fb77c.setContent(html_20af36ed135cae1560ab7e400775bac9);
+            
+        
+
+        circle_marker_0fe9b21dfd10d2a1aa31f4fcd38176fc.bindPopup(popup_b38c7b6fc9a4902d232f961b761fb77c)
+        ;
+
+        
+    
+    
+            var circle_marker_2d6706a0804dab94ab02b69d20a288a8 = L.circleMarker(
+                [-8.65, 115.2167],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.370967741935484, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_63e586649944f1f4b0fbd40194c6ea89 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3a54ddf165898d85cab6f572f7ee43f2 = $(`<div id="html_3a54ddf165898d85cab6f572f7ee43f2" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Denpasar</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 494</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_63e586649944f1f4b0fbd40194c6ea89.setContent(html_3a54ddf165898d85cab6f572f7ee43f2);
+            
+        
+
+        circle_marker_2d6706a0804dab94ab02b69d20a288a8.bindPopup(popup_63e586649944f1f4b0fbd40194c6ea89)
+        ;
+
+        
+    
+    
+            var circle_marker_0abee3b63a8a7403dc99b06ba47326c8 = L.circleMarker(
+                [1.4748, 124.8421],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.112903225806452, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_23c7ad63fe4eb7188c8dd5d4f96146b0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a06f80d5e6f5df0a66970f1631b5f076 = $(`<div id="html_a06f80d5e6f5df0a66970f1631b5f076" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Manado</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 416</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_23c7ad63fe4eb7188c8dd5d4f96146b0.setContent(html_a06f80d5e6f5df0a66970f1631b5f076);
+            
+        
+
+        circle_marker_0abee3b63a8a7403dc99b06ba47326c8.bindPopup(popup_23c7ad63fe4eb7188c8dd5d4f96146b0)
+        ;
+
+        
+    
+    
+            var circle_marker_dbde1f84aec2bb65b24a153fea4e5d39 = L.circleMarker(
+                [1.0456, 104.0611],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.274193548387096, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_791eb39d575652d71472aee6e2282133 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b258e9ba27a0e4a4422f19df81b10229 = $(`<div id="html_b258e9ba27a0e4a4422f19df81b10229" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: blue; margin-bottom: 10px;">Batam</h4>             <p><strong>Status:</strong> Coldspot (Rendah)</p>             <p><strong>sold:</strong> 240</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_791eb39d575652d71472aee6e2282133.setContent(html_b258e9ba27a0e4a4422f19df81b10229);
+            
+        
+
+        circle_marker_dbde1f84aec2bb65b24a153fea4e5d39.bindPopup(popup_791eb39d575652d71472aee6e2282133)
+        ;
+
+        
+    
+    
+            var circle_marker_226a69f7545627d56064f03dde8057fd = L.circleMarker(
+                [-0.9471, 100.4178],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.629032258064516, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_f579fca0b8895c5c6fb4a9f7a32ebc1d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_caaa629c3bc7567c201cac5677ba01a8 = $(`<div id="html_caaa629c3bc7567c201cac5677ba01a8" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Padang</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 758</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_f579fca0b8895c5c6fb4a9f7a32ebc1d.setContent(html_caaa629c3bc7567c201cac5677ba01a8);
+            
+        
+
+        circle_marker_226a69f7545627d56064f03dde8057fd.bindPopup(popup_f579fca0b8895c5c6fb4a9f7a32ebc1d)
+        ;
+
+        
+    
+    
+            var circle_marker_c69440095937ec2a6035c3a646444d60 = L.circleMarker(
+                [-0.0235, 109.3303],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.112903225806452, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_ab52e9e90d9b6224b4bf8a9781972c1b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dc7e8ceeeb4927a39a0abd0468d7d74d = $(`<div id="html_dc7e8ceeeb4927a39a0abd0468d7d74d" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Pontianak</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 664</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_ab52e9e90d9b6224b4bf8a9781972c1b.setContent(html_dc7e8ceeeb4927a39a0abd0468d7d74d);
+            
+        
+
+        circle_marker_c69440095937ec2a6035c3a646444d60.bindPopup(popup_ab52e9e90d9b6224b4bf8a9781972c1b)
+        ;
+
+        
+    
+    
+            var circle_marker_84784c22c6ea7f2b3966f8eb2f155335 = L.circleMarker(
+                [-3.3167, 114.59],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.306451612903226, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_4be897697bf166edcf09c6c96fa45cea = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6218824c4f86614a33213d0d0bf67499 = $(`<div id="html_6218824c4f86614a33213d0d0bf67499" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: blue; margin-bottom: 10px;">Banjarmasin</h4>             <p><strong>Status:</strong> Coldspot (Rendah)</p>             <p><strong>sold:</strong> 180</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_4be897697bf166edcf09c6c96fa45cea.setContent(html_6218824c4f86614a33213d0d0bf67499);
+            
+        
+
+        circle_marker_84784c22c6ea7f2b3966f8eb2f155335.bindPopup(popup_4be897697bf166edcf09c6c96fa45cea)
+        ;
+
+        
+    
+    
+            var circle_marker_54aa4f77a974a33a03d2de9f18b28a7a = L.circleMarker(
+                [0.5333, 101.45],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.274193548387098, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_558b195bba6edf448e03722e9ddb4e13 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ce3f8e3fc5a627ede6458382a59dbed0 = $(`<div id="html_ce3f8e3fc5a627ede6458382a59dbed0" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Pekanbaru</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 550</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_558b195bba6edf448e03722e9ddb4e13.setContent(html_ce3f8e3fc5a627ede6458382a59dbed0);
+            
+        
+
+        circle_marker_54aa4f77a974a33a03d2de9f18b28a7a.bindPopup(popup_558b195bba6edf448e03722e9ddb4e13)
+        ;
+
+        
+    
+    
+            var circle_marker_cce1dcdf81c39f1f87cc1f68169f5b7d = L.circleMarker(
+                [-7.9797, 112.6304],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.129032258064516, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_8ccfb6c150906ceba004bff28240971c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_efe943bfd84b016c294633dc0cc232a2 = $(`<div id="html_efe943bfd84b016c294633dc0cc232a2" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: blue; margin-bottom: 10px;">Malang</h4>             <p><strong>Status:</strong> Coldspot (Rendah)</p>             <p><strong>sold:</strong> 45</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_8ccfb6c150906ceba004bff28240971c.setContent(html_efe943bfd84b016c294633dc0cc232a2);
+            
+        
+
+        circle_marker_cce1dcdf81c39f1f87cc1f68169f5b7d.bindPopup(popup_8ccfb6c150906ceba004bff28240971c)
+        ;
+
+        
+    
+    
+            var circle_marker_41b2f71bb763b1546a596736713036dc = L.circleMarker(
+                [-7.55, 110.8],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.016129032258064, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_71033ad2e9e7120e9bcd21f9d740431b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3413ad1a8a5b2f0f010aa8fefada1996 = $(`<div id="html_3413ad1a8a5b2f0f010aa8fefada1996" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Solo</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 534</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_71033ad2e9e7120e9bcd21f9d740431b.setContent(html_3413ad1a8a5b2f0f010aa8fefada1996);
+            
+        
+
+        circle_marker_41b2f71bb763b1546a596736713036dc.bindPopup(popup_71033ad2e9e7120e9bcd21f9d740431b)
+        ;
+
+        
+    
+    
+            var circle_marker_d29c3348f18744f60fffd2d9e2ef264b = L.circleMarker(
+                [-6.17, 106.63],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.129032258064516, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_f2b772a63ff7795a1b9ff67fbe532e58 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_635b1e2c1972a2e911cd869d805e4345 = $(`<div id="html_635b1e2c1972a2e911cd869d805e4345" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: blue; margin-bottom: 10px;">Tangerang</h4>             <p><strong>Status:</strong> Coldspot (Rendah)</p>             <p><strong>sold:</strong> 169</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_f2b772a63ff7795a1b9ff67fbe532e58.setContent(html_635b1e2c1972a2e911cd869d805e4345);
+            
+        
+
+        circle_marker_d29c3348f18744f60fffd2d9e2ef264b.bindPopup(popup_f2b772a63ff7795a1b9ff67fbe532e58)
+        ;
+
+        
+    
+    
+            var circle_marker_2d7cdf1dd4024987779490539789a919 = L.circleMarker(
+                [-6.23, 106.99],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18.080645161290324, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_3e1fb8b102b52add91c73f4cced507eb = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_acf7c49ca7cbde77fe24dc7be9504092 = $(`<div id="html_acf7c49ca7cbde77fe24dc7be9504092" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: red; margin-bottom: 10px;">Bekasi</h4>             <p><strong>Status:</strong> Hotspot (Tinggi)</p>             <p><strong>sold:</strong> 848</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_3e1fb8b102b52add91c73f4cced507eb.setContent(html_acf7c49ca7cbde77fe24dc7be9504092);
+            
+        
+
+        circle_marker_2d7cdf1dd4024987779490539789a919.bindPopup(popup_3e1fb8b102b52add91c73f4cced507eb)
+        ;
+
+        
+    
+    
+            var circle_marker_8d80d37d128936e6ebd21be5f7ae178f = L.circleMarker(
+                [-6.39, 106.81],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.822580645161292, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_3f2228d9101e438d4922f50aed04388d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_18a05cd90edd4699d8b8bb9c0f37eefb = $(`<div id="html_18a05cd90edd4699d8b8bb9c0f37eefb" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Depok</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 708</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_3f2228d9101e438d4922f50aed04388d.setContent(html_18a05cd90edd4699d8b8bb9c0f37eefb);
+            
+        
+
+        circle_marker_8d80d37d128936e6ebd21be5f7ae178f.bindPopup(popup_3f2228d9101e438d4922f50aed04388d)
+        ;
+
+        
+    
+    
+            var circle_marker_7476116b155b94ba457d2df1a49d1ee2 = L.circleMarker(
+                [-6.595, 106.8],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.467741935483872, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_a8c5e2b308f383c0bd0033ceee5665e7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4d1d0932e90703c973b7e3eae7844c82 = $(`<div id="html_4d1d0932e90703c973b7e3eae7844c82" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: blue; margin-bottom: 10px;">Bogor</h4>             <p><strong>Status:</strong> Coldspot (Rendah)</p>             <p><strong>sold:</strong> 252</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_a8c5e2b308f383c0bd0033ceee5665e7.setContent(html_4d1d0932e90703c973b7e3eae7844c82);
+            
+        
+
+        circle_marker_7476116b155b94ba457d2df1a49d1ee2.bindPopup(popup_a8c5e2b308f383c0bd0033ceee5665e7)
+        ;
+
+        
+    
+    
+            var circle_marker_9e5ad1ffc7eb0d252d99a9acd40696ab = L.circleMarker(
+                [-6.706, 108.557],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.935483870967742, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_f1afffe9a8039dd825166ac6f70fc14e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6c66c94b99675a3b286c24245d3d5fef = $(`<div id="html_6c66c94b99675a3b286c24245d3d5fef" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: blue; margin-bottom: 10px;">Cirebon</h4>             <p><strong>Status:</strong> Coldspot (Rendah)</p>             <p><strong>sold:</strong> 95</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_f1afffe9a8039dd825166ac6f70fc14e.setContent(html_6c66c94b99675a3b286c24245d3d5fef);
+            
+        
+
+        circle_marker_9e5ad1ffc7eb0d252d99a9acd40696ab.bindPopup(popup_f1afffe9a8039dd825166ac6f70fc14e)
+        ;
+
+        
+    
+    
+            var circle_marker_a875ac0099591149587430f206468315 = L.circleMarker(
+                [-6.923, 106.926],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.387096774193548, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_fca1349d32f93e604985f1f44cd0b0db = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8617f04c66a8dfaf411bc2a762cb44ed = $(`<div id="html_8617f04c66a8dfaf411bc2a762cb44ed" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: red; margin-bottom: 10px;">Sukabumi</h4>             <p><strong>Status:</strong> Hotspot (Tinggi)</p>             <p><strong>sold:</strong> 805</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_fca1349d32f93e604985f1f44cd0b0db.setContent(html_8617f04c66a8dfaf411bc2a762cb44ed);
+            
+        
+
+        circle_marker_a875ac0099591149587430f206468315.bindPopup(popup_fca1349d32f93e604985f1f44cd0b0db)
+        ;
+
+        
+    
+    
+            var circle_marker_a5e48affa2552e802a9a7504408af3e6 = L.circleMarker(
+                [-7.413, 109.245],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.870967741935484, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_b906a9ed6537253463a3cd4819ff7c8c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ec6562c63ced11118bb9df38bfeeb155 = $(`<div id="html_ec6562c63ced11118bb9df38bfeeb155" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Purwokerto</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 587</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_b906a9ed6537253463a3cd4819ff7c8c.setContent(html_ec6562c63ced11118bb9df38bfeeb155);
+            
+        
+
+        circle_marker_a5e48affa2552e802a9a7504408af3e6.bindPopup(popup_b906a9ed6537253463a3cd4819ff7c8c)
+        ;
+
+        
+    
+    
+            var circle_marker_a234ef4536966ecc68df6b2d9f01a333 = L.circleMarker(
+                [2.963, 99.065],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.548387096774194, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_9dff721f37257b441f2825be5e7cb297 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6a0274be85d193028862c842256ae6b5 = $(`<div id="html_6a0274be85d193028862c842256ae6b5" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Pematangsiantar</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 691</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_9dff721f37257b441f2825be5e7cb297.setContent(html_6a0274be85d193028862c842256ae6b5);
+            
+        
+
+        circle_marker_a234ef4536966ecc68df6b2d9f01a333.bindPopup(popup_9dff721f37257b441f2825be5e7cb297)
+        ;
+
+        
+    
+    
+            var circle_marker_c862f784c181d0361504d60fafd13c33 = L.circleMarker(
+                [-6.864, 109.14],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.53225806451613, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_41bc35b1c99be3d89eafedb2540a2a86 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c3652a18344c18d23e6355f157ba3f8e = $(`<div id="html_c3652a18344c18d23e6355f157ba3f8e" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Tegal</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 566</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_41bc35b1c99be3d89eafedb2540a2a86.setContent(html_c3652a18344c18d23e6355f157ba3f8e);
+            
+        
+
+        circle_marker_c862f784c181d0361504d60fafd13c33.bindPopup(popup_41bc35b1c99be3d89eafedb2540a2a86)
+        ;
+
+        
+    
+    
+            var circle_marker_a404f1df5471cd746dc0579b81d9d58c = L.circleMarker(
+                [-7.47, 110.218],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.806451612903224, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_03ea6a840e0e25ecc9a887889239985d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8747ded23251cf1d2655979f47d15ec9 = $(`<div id="html_8747ded23251cf1d2655979f47d15ec9" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Magelang</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 583</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_03ea6a840e0e25ecc9a887889239985d.setContent(html_8747ded23251cf1d2655979f47d15ec9);
+            
+        
+
+        circle_marker_a404f1df5471cd746dc0579b81d9d58c.bindPopup(popup_03ea6a840e0e25ecc9a887889239985d)
+        ;
+
+        
+    
+    
+            var circle_marker_c022e2712ffe5e0462d9ddaf3ca1b8ab = L.circleMarker(
+                [-7.872, 111.463],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 19.91935483870968, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_9803c3faf125c17faccfbcf4c5f00736 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_31a372e2725b761a813f9e5d6b552cd6 = $(`<div id="html_31a372e2725b761a813f9e5d6b552cd6" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: red; margin-bottom: 10px;">Ponorogo</h4>             <p><strong>Status:</strong> Hotspot (Tinggi)</p>             <p><strong>sold:</strong> 962</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_9803c3faf125c17faccfbcf4c5f00736.setContent(html_31a372e2725b761a813f9e5d6b552cd6);
+            
+        
+
+        circle_marker_c022e2712ffe5e0462d9ddaf3ca1b8ab.bindPopup(popup_9803c3faf125c17faccfbcf4c5f00736)
+        ;
+
+        
+    
+    
+            var circle_marker_2368ef1a2f0e7c23682cc6fb7e678839 = L.circleMarker(
+                [-7.816, 112.01],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.967741935483872, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_6c2479b9caf1317d49f22f9a38b9f640 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d07f695c3b159d913cc0413739f0d75f = $(`<div id="html_d07f695c3b159d913cc0413739f0d75f" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Kediri</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 655</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_6c2479b9caf1317d49f22f9a38b9f640.setContent(html_d07f695c3b159d913cc0413739f0d75f);
+            
+        
+
+        circle_marker_2368ef1a2f0e7c23682cc6fb7e678839.bindPopup(popup_6c2479b9caf1317d49f22f9a38b9f640)
+        ;
+
+        
+    
+    
+            var circle_marker_b1656351f68b9e9dbc750a6787c23e37 = L.circleMarker(
+                [-7.63, 111.52],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.387096774193548, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_c12270b634c5e71b0bce57a5bad699ee = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6db6547f1d76b44db06c56da4264f99f = $(`<div id="html_6db6547f1d76b44db06c56da4264f99f" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: red; margin-bottom: 10px;">Madiun</h4>             <p><strong>Status:</strong> Hotspot (Tinggi)</p>             <p><strong>sold:</strong> 805</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_c12270b634c5e71b0bce57a5bad699ee.setContent(html_6db6547f1d76b44db06c56da4264f99f);
+            
+        
+
+        circle_marker_b1656351f68b9e9dbc750a6787c23e37.bindPopup(popup_c12270b634c5e71b0bce57a5bad699ee)
+        ;
+
+        
+    
+    
+            var circle_marker_c951de229e3620d6645ae91bd7ea9bcf = L.circleMarker(
+                [-7.64, 112.9],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_02d37b8110138189b51aa1bcbc5f7d2a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_faa6490173ca7514837e11d7d8c5e5b4 = $(`<div id="html_faa6490173ca7514837e11d7d8c5e5b4" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: blue; margin-bottom: 10px;">Pasuruan</h4>             <p><strong>Status:</strong> Coldspot (Rendah)</p>             <p><strong>sold:</strong> 37</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_02d37b8110138189b51aa1bcbc5f7d2a.setContent(html_faa6490173ca7514837e11d7d8c5e5b4);
+            
+        
+
+        circle_marker_c951de229e3620d6645ae91bd7ea9bcf.bindPopup(popup_02d37b8110138189b51aa1bcbc5f7d2a)
+        ;
+
+        
+    
+    
+            var circle_marker_6c12ea7a61538971dd9547b9e7969050 = L.circleMarker(
+                [-7.75, 113.21],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.548387096774194, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_ad1d0911f89f9d15e84fd55d389fee6b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cf5e905d0c274252ea5cb3e29a08ba97 = $(`<div id="html_cf5e905d0c274252ea5cb3e29a08ba97" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Probolinggo</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 629</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_ad1d0911f89f9d15e84fd55d389fee6b.setContent(html_cf5e905d0c274252ea5cb3e29a08ba97);
+            
+        
+
+        circle_marker_6c12ea7a61538971dd9547b9e7969050.bindPopup(popup_ad1d0911f89f9d15e84fd55d389fee6b)
+        ;
+
+        
+    
+    
+            var circle_marker_3478b32237cac95c61d3805cb845dfd5 = L.circleMarker(
+                [-7.116, 112.417],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.516129032258064, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_20b4aacd2b59e2833421b3089266d052 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_dc07bd9cf9292ca4a7c21f3de6bf1210 = $(`<div id="html_dc07bd9cf9292ca4a7c21f3de6bf1210" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Lamongan</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 565</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_20b4aacd2b59e2833421b3089266d052.setContent(html_dc07bd9cf9292ca4a7c21f3de6bf1210);
+            
+        
+
+        circle_marker_3478b32237cac95c61d3805cb845dfd5.bindPopup(popup_20b4aacd2b59e2833421b3089266d052)
+        ;
+
+        
+    
+    
+            var circle_marker_c27876b58e94fdb965d980457f8378a6 = L.circleMarker(
+                [-8.17, 113.7],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.032258064516128, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_743b53e2371e1846669cde339d4e1a94 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b87919656db0ef996fe3949ae36044a2 = $(`<div id="html_b87919656db0ef996fe3949ae36044a2" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Jember</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 349</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_743b53e2371e1846669cde339d4e1a94.setContent(html_b87919656db0ef996fe3949ae36044a2);
+            
+        
+
+        circle_marker_c27876b58e94fdb965d980457f8378a6.bindPopup(popup_743b53e2371e1846669cde339d4e1a94)
+        ;
+
+        
+    
+    
+            var circle_marker_db935c59a5d599b3f8c22f36c7d82953 = L.circleMarker(
+                [-8.21, 114.36],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.41935483870968, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_3fda03544e36cedb657933757da45c54 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_a625e00b298576f94f6db9b4ad653917 = $(`<div id="html_a625e00b298576f94f6db9b4ad653917" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: red; margin-bottom: 10px;">Banyuwangi</h4>             <p><strong>Status:</strong> Hotspot (Tinggi)</p>             <p><strong>sold:</strong> 807</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_3fda03544e36cedb657933757da45c54.setContent(html_a625e00b298576f94f6db9b4ad653917);
+            
+        
+
+        circle_marker_db935c59a5d599b3f8c22f36c7d82953.bindPopup(popup_3fda03544e36cedb657933757da45c54)
+        ;
+
+        
+    
+    
+            var circle_marker_42648c724306480d614378094c39de8d = L.circleMarker(
+                [-6.3, 107.3],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_788a34b309a1992a24ef27f7b24bd83f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_97bc0509cdfc7db0eff2a66e66645f8e = $(`<div id="html_97bc0509cdfc7db0eff2a66e66645f8e" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: red; margin-bottom: 10px;">Karawang</h4>             <p><strong>Status:</strong> Hotspot (Tinggi)</p>             <p><strong>sold:</strong> 967</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_788a34b309a1992a24ef27f7b24bd83f.setContent(html_97bc0509cdfc7db0eff2a66e66645f8e);
+            
+        
+
+        circle_marker_42648c724306480d614378094c39de8d.bindPopup(popup_788a34b309a1992a24ef27f7b24bd83f)
+        ;
+
+        
+    
+    
+            var circle_marker_376c71e36b33eefea7da8cb38845b4d0 = L.circleMarker(
+                [-6.26, 107.15],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.887096774193548, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_e486b1b6d04f8795e5811cea7f8881e2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fb8ae3e2b956dd99d03845689cad4f20 = $(`<div id="html_fb8ae3e2b956dd99d03845689cad4f20" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Cikarang</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 340</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_e486b1b6d04f8795e5811cea7f8881e2.setContent(html_fb8ae3e2b956dd99d03845689cad4f20);
+            
+        
+
+        circle_marker_376c71e36b33eefea7da8cb38845b4d0.bindPopup(popup_e486b1b6d04f8795e5811cea7f8881e2)
+        ;
+
+        
+    
+    
+            var circle_marker_6c138f08cdae15aed2f550cf8a31553b = L.circleMarker(
+                [-6.12, 106.15],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.870967741935484, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_9b6a9754c6a69e8bffcc779b1689928a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1b6df865d0a1f637548e8e91d30bd8ca = $(`<div id="html_1b6df865d0a1f637548e8e91d30bd8ca" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Serang</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 649</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_9b6a9754c6a69e8bffcc779b1689928a.setContent(html_1b6df865d0a1f637548e8e91d30bd8ca);
+            
+        
+
+        circle_marker_6c138f08cdae15aed2f550cf8a31553b.bindPopup(popup_9b6a9754c6a69e8bffcc779b1689928a)
+        ;
+
+        
+    
+    
+            var circle_marker_a8ab073714bcfc30ca766e8b68c64204 = L.circleMarker(
+                [-6.12, 106.02],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.70967741935484, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_d805493ff678eb7fa3e5e9739cad7ef9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_264ccdbb8c9ef70f88ac32e16c58576c = $(`<div id="html_264ccdbb8c9ef70f88ac32e16c58576c" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Cilegon</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 515</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_d805493ff678eb7fa3e5e9739cad7ef9.setContent(html_264ccdbb8c9ef70f88ac32e16c58576c);
+            
+        
+
+        circle_marker_a8ab073714bcfc30ca766e8b68c64204.bindPopup(popup_d805493ff678eb7fa3e5e9739cad7ef9)
+        ;
+
+        
+    
+    
+            var circle_marker_56fb5b0f14510aa3f7a45eea3a3f7993 = L.circleMarker(
+                [-7.33, 108.2],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.161290322580646, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_ef0490882b82b85860f85f3c3127b616 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_556f531d36d5185641c3783562d899f4 = $(`<div id="html_556f531d36d5185641c3783562d899f4" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Tasikmalaya</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 357</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_ef0490882b82b85860f85f3c3127b616.setContent(html_556f531d36d5185641c3783562d899f4);
+            
+        
+
+        circle_marker_56fb5b0f14510aa3f7a45eea3a3f7993.bindPopup(popup_ef0490882b82b85860f85f3c3127b616)
+        ;
+
+        
+    
+    
+            var circle_marker_cc23ee1ce34b1b4b025ed26c0e6c47bc = L.circleMarker(
+                [-7.33, 108.33],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.17741935483871, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_c62589af347a86b262f0f7e8016aa391 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d490de51d3d8826c8741950d45c17118 = $(`<div id="html_d490de51d3d8826c8741950d45c17118" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Ciamis</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 482</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_c62589af347a86b262f0f7e8016aa391.setContent(html_d490de51d3d8826c8741950d45c17118);
+            
+        
+
+        circle_marker_cc23ee1ce34b1b4b025ed26c0e6c47bc.bindPopup(popup_c62589af347a86b262f0f7e8016aa391)
+        ;
+
+        
+    
+    
+            var circle_marker_bfe99daa569e2227d1576bdd52e0faf6 = L.circleMarker(
+                [-7.22, 107.9],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.274193548387096, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_d90f74c0daf6eafb5340779895f9734c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ab7911d607ea73cd6e9628202a1e65da = $(`<div id="html_ab7911d607ea73cd6e9628202a1e65da" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: blue; margin-bottom: 10px;">Garut</h4>             <p><strong>Status:</strong> Coldspot (Rendah)</p>             <p><strong>sold:</strong> 240</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_d90f74c0daf6eafb5340779895f9734c.setContent(html_ab7911d607ea73cd6e9628202a1e65da);
+            
+        
+
+        circle_marker_bfe99daa569e2227d1576bdd52e0faf6.bindPopup(popup_d90f74c0daf6eafb5340779895f9734c)
+        ;
+
+        
+    
+    
+            var circle_marker_687b8372397788baf3126d489e251c19 = L.circleMarker(
+                [-6.85, 107.91],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.612903225806452, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_9237090e81b58708e8ffebdbb3942ec6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d55a3dfae8cc4c274c866868428eb43d = $(`<div id="html_d55a3dfae8cc4c274c866868428eb43d" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: blue; margin-bottom: 10px;">Sumedang</h4>             <p><strong>Status:</strong> Coldspot (Rendah)</p>             <p><strong>sold:</strong> 199</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_9237090e81b58708e8ffebdbb3942ec6.setContent(html_d55a3dfae8cc4c274c866868428eb43d);
+            
+        
+
+        circle_marker_687b8372397788baf3126d489e251c19.bindPopup(popup_9237090e81b58708e8ffebdbb3942ec6)
+        ;
+
+        
+    
+    
+            var circle_marker_9c9da155f55d2b168fa76e83c6b9827c = L.circleMarker(
+                [-6.83, 108.23],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.17741935483871, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_080ff0d46a10c7e8f09690691bfe7d5f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ee471700e5d9effdd87f7cb4fbb381ef = $(`<div id="html_ee471700e5d9effdd87f7cb4fbb381ef" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: blue; margin-bottom: 10px;">Majalengka</h4>             <p><strong>Status:</strong> Coldspot (Rendah)</p>             <p><strong>sold:</strong> 234</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_080ff0d46a10c7e8f09690691bfe7d5f.setContent(html_ee471700e5d9effdd87f7cb4fbb381ef);
+            
+        
+
+        circle_marker_9c9da155f55d2b168fa76e83c6b9827c.bindPopup(popup_080ff0d46a10c7e8f09690691bfe7d5f)
+        ;
+
+        
+    
+    
+            var circle_marker_4533d89009daceac55948caeeaa898e9 = L.circleMarker(
+                [-6.33, 108.32],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.758064516129032, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_d59b0e44d1a92044857400f34285b5dd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7d612a14f6d0f4682e6c9a270ebbf1fb = $(`<div id="html_7d612a14f6d0f4682e6c9a270ebbf1fb" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Indramayu</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 394</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_d59b0e44d1a92044857400f34285b5dd.setContent(html_7d612a14f6d0f4682e6c9a270ebbf1fb);
+            
+        
+
+        circle_marker_4533d89009daceac55948caeeaa898e9.bindPopup(popup_d59b0e44d1a92044857400f34285b5dd)
+        ;
+
+        
+    
+    
+            var circle_marker_66694dbac234459f0c709b7f0d455458 = L.circleMarker(
+                [-6.56, 107.76],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.629032258064516, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_c5a228e7f2069a423de09930c0d728cc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_da0e97ba14915f8a04f38a1a693498a1 = $(`<div id="html_da0e97ba14915f8a04f38a1a693498a1" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Subang</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 386</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_c5a228e7f2069a423de09930c0d728cc.setContent(html_da0e97ba14915f8a04f38a1a693498a1);
+            
+        
+
+        circle_marker_66694dbac234459f0c709b7f0d455458.bindPopup(popup_c5a228e7f2069a423de09930c0d728cc)
+        ;
+
+        
+    
+    
+            var circle_marker_30fec2db9411ce4114b7f39798c18295 = L.circleMarker(
+                [-6.42, 107.45],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.112903225806452, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_841c1d745f8930305997e8c512e88c6a = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_26bd1cdf328ad5cb673dd1f9a64c7513 = $(`<div id="html_26bd1cdf328ad5cb673dd1f9a64c7513" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Purwakarta</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 292</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_841c1d745f8930305997e8c512e88c6a.setContent(html_26bd1cdf328ad5cb673dd1f9a64c7513);
+            
+        
+
+        circle_marker_30fec2db9411ce4114b7f39798c18295.bindPopup(popup_841c1d745f8930305997e8c512e88c6a)
+        ;
+
+        
+    
+    
+            var circle_marker_e10ff6e8ff8ec5d43f000c8193e9ab5e = L.circleMarker(
+                [-7.6, 111.1],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_94f58d1dada88481401e22afc7b346b9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_555c94ff7a19062bf977820608d76a4f = $(`<div id="html_555c94ff7a19062bf977820608d76a4f" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: red; margin-bottom: 10px;">Karanganyar</h4>             <p><strong>Status:</strong> Hotspot (Tinggi)</p>             <p><strong>sold:</strong> 967</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_94f58d1dada88481401e22afc7b346b9.setContent(html_555c94ff7a19062bf977820608d76a4f);
+            
+        
+
+        circle_marker_e10ff6e8ff8ec5d43f000c8193e9ab5e.bindPopup(popup_94f58d1dada88481401e22afc7b346b9)
+        ;
+
+        
+    
+    
+            var circle_marker_cfbcd32251516f6425a1ce7a08a28b23 = L.circleMarker(
+                [-7.41, 111.02],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.758064516129032, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_8183c39b4970af4b4522ef2e35837558 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6a65188d1d442ab78bae76a030c154be = $(`<div id="html_6a65188d1d442ab78bae76a030c154be" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Sragen</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 642</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_8183c39b4970af4b4522ef2e35837558.setContent(html_6a65188d1d442ab78bae76a030c154be);
+            
+        
+
+        circle_marker_cfbcd32251516f6425a1ce7a08a28b23.bindPopup(popup_8183c39b4970af4b4522ef2e35837558)
+        ;
+
+        
+    
+    
+            var circle_marker_d6327f0761f73cffbffd57a367541c8a = L.circleMarker(
+                [-8.0, 110.9],
+                {"bubblingMouseEvents": true, "color": "yellow", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.67741935483871, "stroke": true, "weight": 2}
+            ).addTo(map_4c3bb8f17e80556eec7bc40d71da46f3);
+        
+    
+        var popup_7d3201774029a4b3ba0401566941d4e6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_cf2841b16ca50471f915ef113b88031e = $(`<div id="html_cf2841b16ca50471f915ef113b88031e" style="width: 100.0%; height: 100.0%;">         <div style="width: 250px;">             <h4 style="color: yellow; margin-bottom: 10px;">Wonogiri</h4>             <p><strong>Status:</strong> Normal</p>             <p><strong>sold:</strong> 637</p>             <p><strong>Rata-rata:</strong> 522</p>             <hr style="margin: 10px 0;">             <p style="font-size: 12px; color: #666;">                 🔴 Hotspot = Nilai di atas rata-rata<br>                 🟡 Normal = Nilai sekitar rata-rata<br>                 🔵 Coldspot = Nilai di bawah rata-rata             </p>         </div>         </div>`)[0];
+                popup_7d3201774029a4b3ba0401566941d4e6.setContent(html_cf2841b16ca50471f915ef113b88031e);
+            
+        
+
+        circle_marker_d6327f0761f73cffbffd57a367541c8a.bindPopup(popup_7d3201774029a4b3ba0401566941d4e6)
+        ;
+
+        
+    
+</script>
+</html>
